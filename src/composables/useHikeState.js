@@ -1,15 +1,14 @@
 import { reactive, computed } from 'vue'
 import { HIKES } from '../data/hikes.js'
 
-const STORAGE_KEY = 'ireland-hikes-v2'
+const STORAGE_KEY  = 'ireland-hikes-v2'
+const VERSION_KEY  = 'ireland-hikes-personal-version'
 
 // ── Bootstrap ──────────────────────────────────────────────────────────────
-// Priority: localStorage (in-session edits) → public/personal.json (committed
-// data) → ireland_hikes.json defaults.
-//
-// personal.json is only fetched when localStorage is empty — i.e. first visit
-// or after a browser-data clear. After that, localStorage is authoritative and
-// renders instantly with no network wait.
+// 1. Apply localStorage immediately so the first render is instant.
+// 2. Always fetch personal.json. If its _version is newer than the last
+//    version we merged, apply it on top — this picks up new hikes you commit
+//    to the repo without wiping in-browser edits for existing hikes.
 
 function defaultState() {
   const s = {}
@@ -32,26 +31,31 @@ function persist(state) {
 const userState      = reactive(defaultState())
 const selectedHikeId = reactive({ value: null })
 
-// Then try to upgrade the state from the best available source.
-;(async () => {
+// Apply localStorage immediately (sync, no flash).
+;(() => {
   const raw = localStorage.getItem(STORAGE_KEY)
-  if (raw) {
-    try { Object.assign(userState, JSON.parse(raw)); return } catch {}
-  }
+  if (raw) { try { Object.assign(userState, JSON.parse(raw)) } catch {} }
+})()
 
-  // localStorage empty — seed from the committed personal.json in the repo.
+// Then fetch personal.json and merge if its _version is newer.
+;(async () => {
   try {
     const res = await fetch('./personal.json')
-    if (res.ok) {
-      const data = await res.json()
-      // Merge: only overwrite hikes that actually have personal data in the file.
+    if (!res.ok) return
+    const data = await res.json()
+    const jsonVersion   = data._version ?? ''
+    const seenVersion   = localStorage.getItem(VERSION_KEY) ?? ''
+    const hasLocalState = !!localStorage.getItem(STORAGE_KEY)
+
+    if (jsonVersion > seenVersion || !hasLocalState) {
       Object.entries(data).forEach(([id, val]) => {
+        if (id.startsWith('_')) return
         userState[Number(id)] = { ...userState[Number(id)], ...val }
       })
+      localStorage.setItem(VERSION_KEY, jsonVersion)
+      persist(userState)
     }
   } catch {}
-
-  persist(userState)
 })()
 
 // ── Composable ─────────────────────────────────────────────────────────────
