@@ -28,5 +28,11 @@
     "date_completed": "2025-07-27",
     "rating": null,
     "notes": null
+  },
+  "29": {
+    "completed": true,
+    "date_completed": "2025-07-27",
+    "rating": 4.5,
+    "notes": "Very hot day.  It is very exposed to the sun with no trees."
   }
 }
