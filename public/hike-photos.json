@@ -1,4 +1,160 @@
 {
-  "_readme": "Add photos to public/photos/{hikeId}/ and list them here. lat/lng are optional — leave null if no GPS.",
-  "hikes": {}
+  "_readme": "Add photos to public/photos/{hikeId}/ and list them here. lat/lng optional.",
+  "hikes": {
+    "29": [
+      {
+        "id": "29-0",
+        "filename": "0.jpg",
+        "caption": "Mullaghmore viewed across the lough from the lowlands",
+        "lat": 52.996931,
+        "lng": -9.028686,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-1",
+        "filename": "1.jpg",
+        "caption": "The lough reflecting the limestone slopes of Mullaghmore",
+        "lat": 52.996983,
+        "lng": -9.028700,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-2",
+        "filename": "2.jpg",
+        "caption": "Rocky limestone outcrop with dense scrub vegetation",
+        "lat": 52.996128,
+        "lng": -9.024133,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-3",
+        "filename": "3.jpg",
+        "caption": "Burren National Park information sign and trail map",
+        "lat": 52.995931,
+        "lng": -9.021278,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-4",
+        "filename": "4.jpg",
+        "caption": "Mullaghmore and the lough under a partly cloudy sky",
+        "lat": 52.997008,
+        "lng": -9.021014,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-5",
+        "filename": "5.jpg",
+        "caption": "Hiker silhouetted on the limestone pavement against a blue sky",
+        "lat": 53.002411,
+        "lng": -9.012131,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-6",
+        "filename": "6.jpg",
+        "caption": "Boulder field with the lough visible across the limestone plain",
+        "lat": 53.002833,
+        "lng": -9.012075,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-7",
+        "filename": "7.jpg",
+        "caption": "Limestone escarpment with green valley and patchwork fields below",
+        "lat": 53.005008,
+        "lng": -9.003522,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-8",
+        "filename": "8.jpg",
+        "caption": "Cliff face with trail marker on rocks and green valley beyond",
+        "lat": 53.005986,
+        "lng": -9.003567,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-9",
+        "filename": "9.jpg",
+        "caption": "Limestone cliff with hawthorn trees nestled below the escarpment",
+        "lat": 53.005917,
+        "lng": -9.001350,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-10",
+        "filename": "10.jpg",
+        "caption": "Cairn with the lough shimmering in the valley below",
+        "lat": 53.006231,
+        "lng": -9.000558,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-11",
+        "filename": "11.jpg",
+        "caption": "Summit cairn with sweeping Burren views stretching to the horizon",
+        "lat": 53.006692,
+        "lng": -9.001006,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-12",
+        "filename": "12.jpg",
+        "caption": "Standing at the summit cairn of Mullaghmore",
+        "lat": 53.006681,
+        "lng": -9.001119,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-13",
+        "filename": "13.jpg",
+        "caption": "Wide view of the limestone plateau from the upper slopes",
+        "lat": 53.007244,
+        "lng": -9.000517,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-14",
+        "filename": "14.jpg",
+        "caption": "Concentric limestone terracing on the upper mountain",
+        "lat": 53.007739,
+        "lng": -9.000011,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-15",
+        "filename": "15.jpg",
+        "caption": "A tree growing through the limestone rocks on the hillside",
+        "lat": 53.010325,
+        "lng": -8.999953,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-16",
+        "filename": "16.jpg",
+        "caption": "Selfie on the limestone pavement with the Burren behind",
+        "lat": 53.010658,
+        "lng": -9.001378,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-17",
+        "filename": "17.jpg",
+        "caption": "Mullaghmore — a limestone dome rising above the Burren plain",
+        "lat": 53.010553,
+        "lng": -9.001556,
+        "date": "2026-05-24"
+      },
+      {
+        "id": "29-18",
+        "filename": "18.jpg",
+        "caption": "Lone tree and dry stone wall on the limestone grassland",
+        "lat": 53.001953,
+        "lng": -9.011992,
+        "date": "2026-05-24"
+      }
+    ]
+  }
 }
+
