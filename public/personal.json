@@ -35,5 +35,11 @@
     "date_completed": "2026-05-24",
     "rating": 4.5,
     "notes": "Very hot day.  It is very exposed to the sun with no trees."
+  },
+  "36": {
+    "completed": true,
+    "date_completed": "2025-08-16",
+    "rating": 5.0,
+    "notes": "A very flat hike in amongst cool trees and pine forest.  Absolutely beautiful.  The forest is very quiet and peaceful.  The trail is well marked and easy to follow."
   }
 }
