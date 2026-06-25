@@ -736,4 +736,35 @@ defineExpose({ refresh, openHike, openPhoto })
 .lb-enter-from, .lb-leave-to { opacity: 0; }
 .lb-img-enter-active, .lb-img-leave-active { transition: opacity 0.12s; }
 .lb-img-enter-from, .lb-img-leave-to { opacity: 0; }
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .cards-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .all-card { aspect-ratio: 16 / 7; }
+  .card-name { font-size: 13px; }
+  .all-card .card-name { font-size: 15px; }
+  .card-meta { font-size: 10px; }
+
+  .masonry { columns: 2; column-gap: 8px; }
+  .masonry-tile { margin-bottom: 8px; }
+
+  .lb-stage { padding: 48px 8px 0; }
+  .lb-footer { padding: 10px 14px 14px; flex-wrap: wrap; gap: 6px; }
+  .lb-nav { width: 44px; height: 44px; font-size: 24px; }
+  .lb-prev { left: 6px; }
+  .lb-next { right: 6px; }
+  .lb-hike-btn { font-size: 13px; }
+  .lb-caption { font-size: 12px; }
+  .lb-meta-row { display: none; }
+  .lb-counter { font-size: 12px; }
+  .lb-close { top: 10px; right: 10px; width: 36px; height: 36px; font-size: 20px; }
+
+  .gallery-toolbar { padding: 8px 12px; }
+  .hike-select { max-width: 130px; font-size: 12px; }
+  .back-btn { padding: 5px 10px; font-size: 12px; }
+  .toolbar-title { font-size: 13px; }
+}
 </style>

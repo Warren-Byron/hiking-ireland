@@ -106,6 +106,35 @@ const progressPct = computed(() =>
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
+@media (max-width: 640px) {
+  .app-header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 14px 0;
+    gap: 8px 12px;
+  }
+  .header-left { flex-shrink: 0; }
+  .header-progress { flex: 1; min-width: 0; }
+  .progress-track { max-width: none; }
+  .progress-label { font-size: 12px; }
+  .view-tabs {
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    padding: 6px 0;
+    gap: 2px;
+  }
+  .tab-btn {
+    flex: 1;
+    padding: 7px 4px;
+    font-size: 11px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .logo-icon { font-size: 20px; }
+  .app-title { font-size: 15px; }
+  .app-sub { display: none; }
+}
+
 .header-left {
   display: flex;
   align-items: center;

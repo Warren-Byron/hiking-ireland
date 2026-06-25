@@ -299,4 +299,35 @@ function setSort(key) {
   color: var(--text-muted);
   font-size: 14px;
 }
+
+@media (max-width: 640px) {
+  .list-controls {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 8px 12px;
+    gap: 6px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .list-controls::-webkit-scrollbar { display: none; }
+  .search-input { min-width: 120px; font-size: 12px; padding: 6px 10px; }
+  .filter-select { font-size: 12px; padding: 6px 8px; flex-shrink: 0; }
+  .result-count { flex-shrink: 0; }
+
+  /* Hide less essential columns on mobile */
+  .hike-table th:nth-child(4),
+  .hike-table td:nth-child(4),
+  .hike-table th:nth-child(7),
+  .hike-table td:nth-child(7),
+  .hike-table th:nth-child(8),
+  .hike-table td:nth-child(8),
+  .hike-table th:nth-child(10),
+  .hike-table td:nth-child(10),
+  .hike-table th:nth-child(11),
+  .hike-table td:nth-child(11) { display: none; }
+
+  .hike-row td { padding: 9px 8px; }
+  .td-name { min-width: 130px; }
+  .hike-name { font-size: 12px; }
+  .hike-irish { display: none; }
+}
 </style>

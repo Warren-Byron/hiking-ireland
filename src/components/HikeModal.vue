@@ -630,4 +630,28 @@ function diffLabel(d) { return DIFFICULTY_LABEL[d] ?? d }
 .modal-enter-from, .modal-leave-to { opacity: 0; transform: scale(0.96); }
 .fade-enter-active, .fade-leave-active { transition: opacity 0.15s; }
 .fade-enter-from, .fade-leave-to { opacity: 0; }
+
+/* Mobile — bottom sheet */
+@media (max-width: 640px) {
+  .modal-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .modal {
+    max-width: 100%;
+    max-height: 92vh;
+    border-radius: 20px 20px 0 0;
+  }
+  .modal-enter-from, .modal-leave-to {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  .modal-cover { height: 160px; }
+  .modal-header { padding: 16px 16px 10px; }
+  .modal-stats, .modal-badges, .modal-start,
+  .modal-notes-row, .complete-section,
+  .your-take-section, .pitstops-section,
+  .photos-section, .book-ref { padding-left: 16px; padding-right: 16px; }
+  .modal-name { font-size: 17px; }
+}
 </style>

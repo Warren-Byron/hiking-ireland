@@ -1,6 +1,9 @@
 <template>
   <div class="map-view">
-    <aside class="map-sidebar">
+    <div v-if="sidebarOpen && isMobile" class="sidebar-backdrop" @click="sidebarOpen = false"></div>
+
+    <aside class="map-sidebar" :class="{ open: sidebarOpen }">
+      <button class="sidebar-close-btn" @click="sidebarOpen = false" aria-label="Close filters">✕</button>
       <div class="sidebar-section">
         <h3 class="sidebar-heading">Filters</h3>
         <div class="filter-group">
@@ -73,7 +76,12 @@
       </div>
     </aside>
 
-    <div ref="mapEl" class="map-container"></div>
+    <div class="map-area">
+      <button v-if="isMobile && !sidebarOpen" class="map-filter-btn" @click="sidebarOpen = true">
+        ⚙️ Filters
+      </button>
+      <div ref="mapEl" class="map-container"></div>
+    </div>
   </div>
 </template>
 
@@ -88,7 +96,14 @@ import { DIFFICULTY_ORDER, DIFFICULTY_LABEL } from '../data/hikes.js'
 const { hikes, selectHike } = useHikeState()
 const { getAllPhotos } = usePhotoDB()
 
-const mapEl = ref(null)
+const mapEl      = ref(null)
+const isMobile   = ref(window.innerWidth <= 640)
+const sidebarOpen = ref(!isMobile.value)
+
+function onResize() {
+  isMobile.value = window.innerWidth <= 640
+  if (!isMobile.value) sidebarOpen.value = true
+}
 let map = null
 const hikeMarkers = {}
 const photoMarkerLayer = L.layerGroup()
@@ -163,6 +178,7 @@ function resetFilters() {
 }
 
 onMounted(async () => {
+  window.addEventListener('resize', onResize)
   map = L.map(mapEl.value, { zoomControl: true }).setView([53.5, -7.8], 7)
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -189,6 +205,7 @@ onMounted(async () => {
 })
 
 onBeforeUnmount(() => {
+  window.removeEventListener('resize', onResize)
   if (map) map.remove()
   map = null
 })
@@ -271,6 +288,11 @@ defineExpose({ refreshPhotoMarkers })
   display: flex;
   height: 100%;
   overflow: hidden;
+  position: relative;
+}
+
+.sidebar-backdrop {
+  display: none;
 }
 
 .map-sidebar {
@@ -285,7 +307,76 @@ defineExpose({ refreshPhotoMarkers })
   gap: 18px;
 }
 
-.map-container { flex: 1; min-width: 0; }
+.sidebar-close-btn { display: none; }
+
+.map-area {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+
+.map-container { width: 100%; height: 100%; }
+
+.map-filter-btn {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .sidebar-backdrop {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 499;
+  }
+
+  .map-sidebar {
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    z-index: 500;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    width: 220px;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.15);
+    padding-top: 44px;
+  }
+  .map-sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px; right: 10px;
+    width: 30px; height: 30px;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    color: var(--text-muted);
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .map-filter-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 400;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+}
 
 .sidebar-section { display: flex; flex-direction: column; gap: 9px; }
 
