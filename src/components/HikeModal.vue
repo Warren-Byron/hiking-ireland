@@ -152,61 +152,12 @@
           </div>
 
           <!-- Photos -->
-          <div class="photos-section">
-            <div class="photos-header">
-              <h3 class="section-title" style="margin:0">Photos</h3>
-              <label class="upload-btn" :class="{ disabled: pendingPhotos.length > 0 }">
-                <input
-                  type="file"
-                  accept="image/*"
-                  multiple
-                  style="display:none"
-                  :disabled="pendingPhotos.length > 0"
-                  @change="handleFileSelect"
-                />
-                + Add photos
-              </label>
-            </div>
-
-            <!-- Pending review -->
-            <Transition name="fade">
-              <div v-if="pendingPhotos.length" class="pending-panel">
-                <div class="pending-panel-header">
-                  <span class="pending-panel-title">Review {{ pendingPhotos.length }} photo{{ pendingPhotos.length !== 1 ? 's' : '' }}</span>
-                  <div class="pending-panel-actions">
-                    <button class="pending-cancel-btn" @click="cancelPending">Discard</button>
-                    <button class="pending-save-btn" :disabled="saving" @click="savePending">
-                      {{ saving ? 'Saving…' : `Save ${pendingPhotos.length}` }}
-                    </button>
-                  </div>
-                </div>
-                <div v-for="(p, idx) in pendingPhotos" :key="idx" class="pending-item">
-                  <img :src="p.previewUrl" class="pending-thumb" />
-                  <div class="pending-info">
-                    <span class="pending-filename">{{ p.name }}</span>
-                    <span class="pending-gps-source" :class="p.gpsSource">
-                      {{ p.gpsSource === 'exif' ? '📍 GPS detected from photo' : '📍 No GPS — using hike location' }}
-                    </span>
-                    <div class="coord-row">
-                      <label class="coord-label">Lat</label>
-                      <input v-model.number="p.lat" type="number" step="0.000001" class="coord-input" />
-                      <label class="coord-label">Lng</label>
-                      <input v-model.number="p.lng" type="number" step="0.000001" class="coord-input" />
-                    </div>
-                  </div>
-                  <button class="pending-remove-btn" @click="removePending(idx)">×</button>
-                </div>
-              </div>
-            </Transition>
-
-            <div v-if="loading && !saving" class="photos-loading">Loading…</div>
-            <div v-else-if="photos.length === 0 && !pendingPhotos.length" class="photos-empty">
-              No photos yet.
-            </div>
-            <div v-else-if="photos.length" class="photos-grid">
+          <div v-if="photos.length || loading" class="photos-section">
+            <h3 class="section-title">Photos</h3>
+            <div v-if="loading" class="photos-loading">Loading…</div>
+            <div v-else class="photos-grid">
               <div v-for="photo in photos" :key="photo.id" class="photo-thumb" @click="openLightbox(photo)">
                 <img :src="photo.dataUrl" :alt="photo.name" />
-                <button class="photo-delete" @click.stop="removePhoto(photo.id)">×</button>
                 <div v-if="photo.lat != null" class="photo-coords">
                   📍 {{ photo.lat.toFixed(4) }}, {{ photo.lng.toFixed(4) }}
                 </div>
@@ -235,16 +186,13 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import { gps as extractGps } from 'exifr'
 import { useHikeState } from '../composables/useHikeState.js'
 import { usePhotoDB } from '../composables/usePhotoDB.js'
 import { useSpeech } from '../composables/useSpeech.js'
 import { DIFFICULTY_LABEL } from '../data/hikes.js'
 
-const emit = defineEmits(['photos-changed'])
-
 const { selectedHikeId, getHike, updatePersonal, closeModal } = useHikeState()
-const { addPhoto, getPhotosForHike, deletePhoto } = usePhotoDB()
+const { getPhotosForHike } = usePhotoDB()
 const { speak, speaking, hasIrishVoice } = useSpeech()
 
 const hike = computed(() =>
@@ -257,9 +205,7 @@ const localRating    = ref(null)
 const localNotes     = ref('')
 const photos         = ref([])
 const loading        = ref(false)
-const saving         = ref(false)
 const lightboxPhoto  = ref(null)
-const pendingPhotos  = ref([])
 const today = new Date().toISOString().split('T')[0]
 
 watch(hike, async newHike => {
@@ -269,7 +215,6 @@ watch(hike, async newHike => {
   localDate.value      = newHike.date_completed ?? today
   localRating.value    = newHike.rating
   localNotes.value     = newHike.notes ?? ''
-  cancelPending()
   await loadPhotos()
 })
 
@@ -305,49 +250,6 @@ function saveRating() {
 
 function saveNotes() {
   updatePersonal(hike.value.id, { notes: localNotes.value })
-}
-
-async function handleFileSelect(e) {
-  const files = Array.from(e.target.files)
-  e.target.value = ''
-  for (const file of files) {
-    const previewUrl = URL.createObjectURL(file)
-    let lat = hike.value.lat, lng = hike.value.lng, gpsSource = 'hike'
-    try {
-      const coords = await extractGps(file)
-      if (coords?.latitude != null) { lat = coords.latitude; lng = coords.longitude; gpsSource = 'exif' }
-    } catch {}
-    pendingPhotos.value.push({ file, previewUrl, name: file.name, lat, lng, gpsSource })
-  }
-}
-
-async function savePending() {
-  saving.value = true
-  try {
-    for (const p of pendingPhotos.value) {
-      await addPhoto(hike.value.id, p.file, p.lat, p.lng)
-      URL.revokeObjectURL(p.previewUrl)
-    }
-    pendingPhotos.value = []
-    await loadPhotos()
-    emit('photos-changed')
-  } finally { saving.value = false }
-}
-
-function cancelPending() {
-  pendingPhotos.value.forEach(p => URL.revokeObjectURL(p.previewUrl))
-  pendingPhotos.value = []
-}
-
-function removePending(idx) {
-  URL.revokeObjectURL(pendingPhotos.value[idx].previewUrl)
-  pendingPhotos.value.splice(idx, 1)
-}
-
-async function removePhoto(id) {
-  await deletePhoto(id)
-  photos.value = photos.value.filter(p => p.id !== id)
-  emit('photos-changed')
 }
 
 function openLightbox(photo) { lightboxPhoto.value = photo }
@@ -678,56 +580,6 @@ function diffLabel(d) { return DIFFICULTY_LABEL[d] ?? d }
   border-bottom: 1px solid var(--border);
 }
 
-.photos-header { display: flex; align-items: center; justify-content: space-between; }
-
-.upload-btn {
-  padding: 6px 14px; background: var(--green-600); color: white;
-  border-radius: 8px; font-size: 13px; font-weight: 600;
-  cursor: pointer; transition: background 0.15s;
-}
-.upload-btn:hover { background: var(--green-700); }
-.upload-btn.disabled { opacity: 0.5; cursor: not-allowed; }
-
-.pending-panel {
-  border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: var(--surface);
-}
-.pending-panel-header {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 10px 14px; background: var(--surface-raised); border-bottom: 1px solid var(--border);
-}
-.pending-panel-title { font-size: 13px; font-weight: 600; color: var(--text); }
-.pending-panel-actions { display: flex; gap: 8px; }
-.pending-cancel-btn {
-  padding: 5px 12px; border: 1px solid var(--border); border-radius: 6px;
-  background: none; color: var(--text-muted); font-size: 12px; cursor: pointer;
-}
-.pending-cancel-btn:hover { background: var(--border); }
-.pending-save-btn {
-  padding: 5px 12px; border: none; border-radius: 6px;
-  background: var(--green-600); color: white; font-size: 12px; font-weight: 600; cursor: pointer;
-}
-.pending-save-btn:hover:not(:disabled) { background: var(--green-700); }
-.pending-save-btn:disabled { opacity: 0.6; cursor: not-allowed; }
-
-.pending-item {
-  display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px;
-  border-bottom: 1px solid var(--border);
-}
-.pending-item:last-child { border-bottom: none; }
-.pending-thumb { width: 60px; height: 60px; object-fit: cover; border-radius: 6px; flex-shrink: 0; }
-.pending-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
-.pending-filename { font-size: 12px; font-weight: 600; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.pending-gps-source { font-size: 11px; font-weight: 500; }
-.pending-gps-source.exif { color: var(--green-600); }
-.pending-gps-source.hike { color: var(--text-muted); }
-.coord-row { display: flex; align-items: center; gap: 6px; }
-.coord-label { font-size: 11px; color: var(--text-muted); font-weight: 600; }
-.coord-input { width: 110px; padding: 4px 7px; border: 1px solid var(--border); border-radius: 5px; background: var(--bg); color: var(--text); font-size: 12px; }
-.coord-input:focus { outline: none; border-color: var(--green-500); }
-.pending-remove-btn { background: none; border: none; color: var(--text-muted); font-size: 20px; cursor: pointer; padding: 0 2px; }
-.pending-remove-btn:hover { color: #dc2626; }
-
-.photos-empty { font-size: 13px; color: var(--text-muted); text-align: center; padding: 16px; background: var(--surface); border-radius: 8px; border: 1px dashed var(--border); }
 .photos-loading { font-size: 13px; color: var(--text-muted); text-align: center; padding: 16px; }
 
 .photos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; }
@@ -735,14 +587,6 @@ function diffLabel(d) { return DIFFICULTY_LABEL[d] ?? d }
 .photo-thumb { position: relative; aspect-ratio: 1; border-radius: 8px; overflow: hidden; cursor: pointer; background: var(--surface); }
 .photo-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; }
 .photo-thumb:hover img { transform: scale(1.05); }
-.photo-delete {
-  position: absolute; top: 4px; right: 4px; width: 22px; height: 22px;
-  border-radius: 50%; background: rgba(0,0,0,0.6); color: white; border: none;
-  font-size: 16px; line-height: 1; cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
-  opacity: 0; transition: opacity 0.15s;
-}
-.photo-thumb:hover .photo-delete { opacity: 1; }
 .photo-coords {
   position: absolute; bottom: 0; left: 0; right: 0;
   background: rgba(0,0,0,0.72); color: white; font-size: 9px;

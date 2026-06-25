@@ -41,12 +41,12 @@
         ref="mapViewRef"
       />
       <ListView v-show="activeView === 'list'" />
-      <GalleryView v-show="activeView === 'gallery'" ref="galleryViewRef" />
+      <GalleryView v-show="activeView === 'gallery'" />
       <AttributionView v-show="activeView === 'attribution'" />
     </main>
 
     <!-- Modal -->
-    <HikeModal @photos-changed="onPhotosChanged" />
+    <HikeModal />
   </div>
 </template>
 
@@ -61,9 +61,8 @@ import { useHikeState } from './composables/useHikeState.js'
 
 const { hikes, completedCount } = useHikeState()
 
-const activeView   = ref('map')
-const mapViewRef   = ref(null)
-const galleryViewRef = ref(null)
+const activeView = ref('map')
+const mapViewRef = ref(null)
 
 const tabs = [
   { id: 'map',         label: '🗺️ Map' },
@@ -76,10 +75,6 @@ const progressPct = computed(() =>
   hikes.value.length ? Math.round((completedCount.value / hikes.value.length) * 100) : 0
 )
 
-function onPhotosChanged() {
-  mapViewRef.value?.refreshPhotoMarkers()
-  galleryViewRef.value?.refresh()
-}
 </script>
 
 <style scoped>
