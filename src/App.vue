@@ -65,13 +65,13 @@ const activeView    = ref('map')
 const mapViewRef    = ref(null)
 const galleryViewRef = ref(null)
 
-function onOpenGalleryHike(e) {
+function onOpenGalleryPhoto(e) {
   activeView.value = 'gallery'
-  galleryViewRef.value?.openHike(e.detail.hikeId)
+  galleryViewRef.value?.openPhoto(e.detail.hikeId, e.detail.photoId)
 }
 
-onMounted(() => window.addEventListener('gallery:open-hike', onOpenGalleryHike))
-onUnmounted(() => window.removeEventListener('gallery:open-hike', onOpenGalleryHike))
+onMounted(() => window.addEventListener('gallery:open-photo', onOpenGalleryPhoto))
+onUnmounted(() => window.removeEventListener('gallery:open-photo', onOpenGalleryPhoto))
 
 const tabs = [
   { id: 'map',         label: '🗺️ Map' },

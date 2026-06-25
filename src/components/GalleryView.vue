@@ -201,7 +201,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { usePhotoDB } from '../composables/usePhotoDB.js'
 import { useHikeState } from '../composables/useHikeState.js'
 import { DIFFICULTY_LABEL } from '../data/hikes.js'
@@ -267,6 +267,16 @@ function openHike(id) {
   viewMode.value = 'grid'
 }
 
+async function openPhoto(hikeId, photoId) {
+  selectedHikeId.value = hikeId
+  screen.value = 'photos'
+  viewMode.value = 'grid'
+  await nextTick()
+  const pool = filteredPhotos.value
+  const idx  = pool.findIndex(p => p.id === photoId)
+  if (idx >= 0) openLightbox(pool, idx)
+}
+
 function openLightbox(pool, idx) {
   lightboxPool.value = pool
   lightboxIdx.value  = idx
@@ -311,7 +321,7 @@ onMounted(async () => {
 
 onUnmounted(() => document.removeEventListener('keydown', onKeydown))
 
-defineExpose({ refresh, openHike })
+defineExpose({ refresh, openHike, openPhoto })
 </script>
 
 <style scoped>

@@ -242,18 +242,16 @@ async function refreshPhotoMarkers() {
 
     const popup = L.popup({ maxWidth: 280, className: 'photo-popup-wrap' }).setContent(`
       <div class="photo-popup">
-        <div class="popup-img-wrap">
+        <div class="popup-img-wrap popup-img-clickable"
+          onclick="window.dispatchEvent(new CustomEvent('gallery:open-photo',{detail:{hikeId:${hike.id},photoId:${JSON.stringify(photo.id)}}}))">
           <img src="${photo.dataUrl}" class="popup-img" />
           ${captionHtml ? `<div class="popup-caption-overlay">${captionHtml}</div>` : ''}
+          <div class="popup-view-hint">Tap to open in Gallery</div>
         </div>
         <div class="popup-footer">
           <span class="popup-hike-name">${hike.name}</span>
           ${coordHtml}
         </div>
-        <button class="popup-gallery-btn"
-          onclick="window.dispatchEvent(new CustomEvent('gallery:open-hike',{detail:{hikeId:${hike.id}}}))">
-          View in Gallery →
-        </button>
       </div>
     `)
 
