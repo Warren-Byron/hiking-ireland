@@ -250,6 +250,10 @@ async function refreshPhotoMarkers() {
           <span class="popup-hike-name">${hike.name}</span>
           ${coordHtml}
         </div>
+        <button class="popup-gallery-btn"
+          onclick="window.dispatchEvent(new CustomEvent('gallery:open-hike',{detail:{hikeId:${hike.id}}}))">
+          View in Gallery →
+        </button>
       </div>
     `)
 

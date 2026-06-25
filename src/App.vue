@@ -41,7 +41,7 @@
         ref="mapViewRef"
       />
       <ListView v-show="activeView === 'list'" />
-      <GalleryView v-show="activeView === 'gallery'" />
+      <GalleryView v-show="activeView === 'gallery'" ref="galleryViewRef" @go-to-map="activeView = 'map'" />
       <AttributionView v-show="activeView === 'attribution'" />
     </main>
 
@@ -51,7 +51,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import MapView from './components/MapView.vue'
 import ListView from './components/ListView.vue'
 import HikeModal from './components/HikeModal.vue'
@@ -61,8 +61,17 @@ import { useHikeState } from './composables/useHikeState.js'
 
 const { hikes, completedCount } = useHikeState()
 
-const activeView = ref('map')
-const mapViewRef = ref(null)
+const activeView    = ref('map')
+const mapViewRef    = ref(null)
+const galleryViewRef = ref(null)
+
+function onOpenGalleryHike(e) {
+  activeView.value = 'gallery'
+  galleryViewRef.value?.openHike(e.detail.hikeId)
+}
+
+onMounted(() => window.addEventListener('gallery:open-hike', onOpenGalleryHike))
+onUnmounted(() => window.removeEventListener('gallery:open-hike', onOpenGalleryHike))
 
 const tabs = [
   { id: 'map',         label: '🗺️ Map' },

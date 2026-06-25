@@ -90,6 +90,10 @@
           <span class="toolbar-count">{{ filteredPhotos.length }}</span>
         </span>
 
+        <button class="map-btn" @click="emit('go-to-map')" title="Back to map">
+          🗺️ Map
+        </button>
+
         <div v-if="!selectedHikeId" class="view-toggle">
           <button :class="['vt-btn', { active: viewMode === 'grid' }]" @click="viewMode = 'grid'" title="Masonry grid">
             <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
@@ -202,6 +206,8 @@ import { usePhotoDB } from '../composables/usePhotoDB.js'
 import { useHikeState } from '../composables/useHikeState.js'
 import { DIFFICULTY_LABEL } from '../data/hikes.js'
 
+const emit = defineEmits(['go-to-map'])
+
 const { getAllPhotos } = usePhotoDB()
 const { hikes, selectHike } = useHikeState()
 
@@ -258,6 +264,7 @@ function openAll() {
 function openHike(id) {
   selectedHikeId.value = id
   screen.value = 'photos'
+  viewMode.value = 'grid'
 }
 
 function openLightbox(pool, idx) {
@@ -304,7 +311,7 @@ onMounted(async () => {
 
 onUnmounted(() => document.removeEventListener('keydown', onKeydown))
 
-defineExpose({ refresh })
+defineExpose({ refresh, openHike })
 </script>
 
 <style scoped>
@@ -367,6 +374,23 @@ defineExpose({ refresh })
   font-weight: 500;
   color: var(--text-muted);
 }
+
+.map-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 11px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.map-btn:hover { background: var(--surface-raised); color: var(--text); }
 
 .view-toggle {
   display: flex;
