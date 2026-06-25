@@ -40,7 +40,7 @@ const selectedHikeId = reactive({ value: null })
 // Then fetch personal.json and merge if its _version is newer.
 ;(async () => {
   try {
-    const res = await fetch('./personal.json')
+    const res = await fetch('./personal.json', { cache: 'no-cache' })
     if (!res.ok) return
     const data = await res.json()
     const jsonVersion   = data._version ?? ''
