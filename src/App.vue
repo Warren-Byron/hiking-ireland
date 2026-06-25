@@ -31,6 +31,12 @@
         >
           {{ tab.label }}
         </button>
+        <a
+          href="https://github.com/Warren-Byron/hiking-ireland"
+          target="_blank"
+          rel="noopener"
+          class="tab-btn template-link"
+        >🍀 Track your hikes</a>
       </nav>
     </header>
 
@@ -130,6 +136,7 @@ const progressPct = computed(() =>
     border-radius: 6px;
     text-align: center;
   }
+  .template-link { display: none; }
   .logo-icon { font-size: 20px; }
   .app-title { font-size: 15px; }
   .app-sub { display: none; }
@@ -216,6 +223,8 @@ const progressPct = computed(() =>
 }
 .tab-btn:hover { background: rgba(255,255,255,0.1); color: white; }
 .tab-btn.active { background: rgba(255,255,255,0.18); color: white; border-color: rgba(255,255,255,0.4); }
+.template-link { text-decoration: none; border-color: rgba(116,198,157,0.5); color: #74c69d; margin-left: 8px; }
+.template-link:hover { background: rgba(116,198,157,0.15); color: #a7f3c8; border-color: #74c69d; }
 
 .app-main {
   flex: 1;
