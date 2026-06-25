@@ -65,10 +65,9 @@
             <td>
               <span class="info-icon">{{ hike.dog_friendly ? '✓' : '—' }}</span>
             </td>
-            <td>
-              <span :class="['status-badge', hike.completed ? 'done' : 'todo']">
-                {{ hike.completed ? '✓ Done' : 'Todo' }}
-              </span>
+            <td class="td-status">
+              <span v-if="hike.completed" class="done-tick">✅</span>
+              <span v-else class="todo-dash">—</span>
             </td>
             <td class="td-rating">{{ hike.rating != null ? '⭐ ' + hike.rating : '—' }}</td>
             <td class="td-date">{{ hike.date_completed ?? '—' }}</td>
@@ -283,15 +282,9 @@ function setSort(key) {
 .diff-badge.hard             { background: rgba(220,38,38,.12);  color: #dc2626; }
 .diff-badge.very-hard        { background: rgba(124,58,237,.12); color: #7c3aed; }
 
-.status-badge {
-  display: inline-block;
-  padding: 2px 7px;
-  border-radius: 99px;
-  font-size: 11px;
-  font-weight: 600;
-}
-.status-badge.done { background: rgba(var(--green-rgb), 0.12); color: var(--green-600); }
-.status-badge.todo { background: var(--surface-raised); color: var(--text-muted); }
+.td-status { text-align: center; width: 52px; }
+.done-tick { font-size: 24px; line-height: 1; display: block; }
+.todo-dash { font-size: 16px; color: var(--border-strong); display: block; text-align: center; }
 
 .empty-state {
   padding: 48px;
