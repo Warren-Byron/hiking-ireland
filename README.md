@@ -2,7 +2,15 @@
 
 A personal hiking tracker for Ireland's top 50 hikes, built with Vue 3, Vite, and Leaflet. Track your completions, log dates and ratings, add photos, and explore every route on an interactive map.
 
-Live at **[warren.byron.technology](https://warren.byron.technology)**
+---
+
+## 🥾 Make it yours — track your own Irish adventures
+
+**[→ Open the live demo](https://warren.byron.technology)**
+
+This repo is designed to be used as a **GitHub Template** — fork it, spend five minutes adding your completions to `personal.json`, and you'll have your own personal Ireland hiking tracker live on GitHub Pages. No backend, no accounts, no cost.
+
+_Coming soon as an official GitHub Template — watch the repo to be notified._
 
 ---
 
