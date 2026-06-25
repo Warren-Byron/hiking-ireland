@@ -153,8 +153,153 @@
         "lat": 53.001953,
         "lng": -9.011992,
         "date": "2026-05-24"
+      }],
+
+    "28": [
+      {
+        "id": "28-0",
+        "filename": "0.jpg",
+        "caption": "Dunmore East Coastal Walk information sign at the trailhead",
+        "lat": 52.145181,
+        "lng": -6.993164,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-1",
+        "filename": "1.jpg",
+        "caption": "Natural sea arch framing the dark cliffs and Atlantic beyond",
+        "lat": 52.145083,
+        "lng": -6.993364,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-2",
+        "filename": "2.jpg",
+        "caption": "Jagged rock ledges dropping into a narrow coastal inlet",
+        "lat": 52.141117,
+        "lng": -7.001764,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-3",
+        "filename": "3.jpg",
+        "caption": "Sea stack rising from the waves below the cliff path",
+        "lat": 52.139103,
+        "lng": -7.011353,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-4",
+        "filename": "4.jpg",
+        "caption": "Cliff path descending toward Rathmoylan Cove and the village",
+        "lat": 52.139467,
+        "lng": -7.014714,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-5",
+        "filename": "5.jpg",
+        "caption": "Portally Cove framed by green headlands opening to the sea",
+        "lat": 52.140172,
+        "lng": -7.016344,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-6",
+        "filename": "6.jpg",
+        "caption": "Sheltered cove with emerald water and layered red sandstone cliffs",
+        "lat": 52.138772,
+        "lng": -7.016075,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-7",
+        "filename": "7.jpg",
+        "caption": "Hiker on the cliff edge with the Waterford coast stretching behind",
+        "lat": 52.137314,
+        "lng": -7.017581,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-8",
+        "filename": "8.jpg",
+        "caption": "Coastal headland with wildflowers and red sandstone outcrops",
+        "lat": 52.133933,
+        "lng": -7.024275,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-9",
+        "filename": "9.jpg",
+        "caption": "Lush bracken covering the clifftop with the coast curving to Red Head",
+        "lat": 52.134339,
+        "lng": -7.031428,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-10",
+        "filename": "10.jpg",
+        "caption": "Rocky cove with turquoise water glimpsed through a cliff gap",
+        "lat": 52.134542,
+        "lng": -7.033969,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-11",
+        "filename": "11.jpg",
+        "caption": "Purple loosestrife and yellow ragwort blanketing the clifftop meadow",
+        "lat": 52.136697,
+        "lng": -7.040525,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-12",
+        "filename": "12.jpg",
+        "caption": "Hidden sandy cove with swimmers in clear turquoise water",
+        "lat": 52.137714,
+        "lng": -7.040817,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-13",
+        "filename": "13.jpg",
+        "caption": "Sandy beach at low tide with bathers and red sandstone cliffs",
+        "lat": 52.138981,
+        "lng": -7.052275,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-14",
+        "filename": "14.jpg",
+        "caption": "Secluded sandy cove with sea cave and turquoise water",
+        "lat": 52.139783,
+        "lng": -7.055075,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-15",
+        "filename": "15.jpg",
+        "caption": "Dark rock channel with clear green water below the cliffs",
+        "lat": 52.138644,
+        "lng": -7.054892,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-16",
+        "filename": "16.jpg",
+        "caption": "Deep narrow sea channel cutting between black rock faces",
+        "lat": 52.138306,
+        "lng": -7.054239,
+        "date": "2025-07-27"
+      },
+      {
+        "id": "28-17",
+        "filename": "17.jpg",
+        "caption": "Dramatic red sandstone cliffs with sea caves and stacks",
+        "lat": 52.135331,
+        "lng": -7.019472,
+        "date": "2025-07-27"
       }
     ]
   }
 }
-
