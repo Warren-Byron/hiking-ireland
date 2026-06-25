@@ -155,6 +155,27 @@
         "date": "2026-05-24"
       }],
 
+    "36": [
+      { "id": "36-0",  "filename": "0.jpg",  "caption": "St Finbarr's Oratory reflected in the still waters of Gougane Barra lake", "lat": 51.839383, "lng": -9.316061, "date": "2025-08-16" },
+      { "id": "36-1",  "filename": "1.jpg",  "caption": "The oratory viewed across the lake with mountains behind",                  "lat": 51.839172, "lng": -9.317422, "date": "2025-08-16" },
+      { "id": "36-2",  "filename": "2.jpg",  "caption": "St Finbarr's Oratory front facade beside the lake",                        "lat": 51.839172, "lng": -9.318239, "date": "2025-08-16" },
+      { "id": "36-3",  "filename": "3.jpg",  "caption": "Upper lough with rocky corrie walls rising above the valley",               "lat": 51.838856, "lng": -9.319294, "date": "2025-08-16" },
+      { "id": "36-4",  "filename": "4.jpg",  "caption": "Clear forest stream running through ferns and woodland",                    "lat": 51.832797, "lng": -9.332581, "date": "2025-08-16" },
+      { "id": "36-5",  "filename": "5.jpg",  "caption": "Tall pine with the lough visible through the forest canopy",                "lat": 51.836994, "lng": -9.330525, "date": "2025-08-16" },
+      { "id": "36-6",  "filename": "6.jpg",  "caption": "Gravel trail winding through lush valley vegetation toward rocky peaks",    "lat": 51.833814, "lng": -9.333269, "date": "2025-08-16" },
+      { "id": "36-7",  "filename": "7.jpg",  "caption": "Moss-covered boulders and ferns in the ancient woodland",                   "lat": 51.832614, "lng": -9.341681, "date": "2025-08-16" },
+      { "id": "36-8",  "filename": "8.jpg",  "caption": "Dense forest below the rocky Shehy Mountain ridgeline",                    "lat": 51.831997, "lng": -9.345678, "date": "2025-08-16" },
+      { "id": "36-9",  "filename": "9.jpg",  "caption": "Rest bench beside the forest road with mountain views",                    "lat": 51.832406, "lng": -9.348217, "date": "2025-08-16" },
+      { "id": "36-10", "filename": "10.jpg", "caption": "Small rocky stream tumbling through ferns beside the trail",                "lat": 51.831719, "lng": -9.349211, "date": "2025-08-16" },
+      { "id": "36-11", "filename": "11.jpg", "caption": "Jagged ridgeline above a mix of pine and broadleaf forest",                 "lat": 51.831906, "lng": -9.347822, "date": "2025-08-16" },
+      { "id": "36-12", "filename": "12.jpg", "caption": "Wooden steps and handrail climbing through the forest",                    "lat": 51.831475, "lng": -9.333886, "date": "2025-08-16" },
+      { "id": "36-13", "filename": "13.jpg", "caption": "Moss-draped rock face with stream and ferns in the gorge",                  "lat": 51.831075, "lng": -9.332561, "date": "2025-08-16" },
+      { "id": "36-14", "filename": "14.jpg", "caption": "Winding gravel path through moss-floored ancient forest",                   "lat": 51.830881, "lng": -9.332369, "date": "2025-08-16" },
+      { "id": "36-15", "filename": "15.jpg", "caption": "Gravel trail through moss-carpeted forest with sheep grazing",              "lat": 51.830811, "lng": -9.331833, "date": "2025-08-16" },
+      { "id": "36-16", "filename": "16.jpg", "caption": "Black-faced sheep beside a mossy stream and stone building",                "lat": 51.836789, "lng": -9.326300, "date": "2025-08-16" },
+      { "id": "36-17", "filename": "17.jpg", "caption": "Wedding party gathering outside St Finbarr's Oratory across the lake",     "lat": 51.838592, "lng": -9.319839, "date": "2025-08-16" }
+    ],
+
     "28": [
       {
         "id": "28-0",
