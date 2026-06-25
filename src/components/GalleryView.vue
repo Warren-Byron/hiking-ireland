@@ -219,6 +219,7 @@ const viewMode       = ref('grid')
 
 const lightboxPool = ref([])
 const lightboxIdx  = ref(null)
+const lightboxFromMap = ref(false)
 
 const hikeMap = computed(() => {
   const m = {}
@@ -274,15 +275,25 @@ async function openPhoto(hikeId, photoId) {
   await nextTick()
   const pool = filteredPhotos.value
   const idx  = pool.findIndex(p => p.id === photoId)
-  if (idx >= 0) openLightbox(pool, idx)
+  if (idx >= 0) {
+    openLightbox(pool, idx)
+    lightboxFromMap.value = true
+  }
 }
 
 function openLightbox(pool, idx) {
   lightboxPool.value = pool
   lightboxIdx.value  = idx
+  lightboxFromMap.value = false
 }
 
-function closeLightbox() { lightboxIdx.value = null }
+function closeLightbox() {
+  lightboxIdx.value = null
+  if (lightboxFromMap.value) {
+    lightboxFromMap.value = false
+    emit('go-to-map')
+  }
+}
 
 function stepLightbox(dir) {
   const next = lightboxIdx.value + dir
