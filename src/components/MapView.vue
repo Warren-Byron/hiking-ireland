@@ -235,12 +235,20 @@ async function refreshPhotoMarkers() {
       iconAnchor: [14, 28],
     })
 
-    const popup = L.popup({ maxWidth: 260 }).setContent(`
+    const captionHtml = photo.name
+      ? `<p class="popup-caption">${photo.name}</p>` : ''
+    const coordHtml = isPinned
+      ? `<span class="popup-coords">📍 ${lat.toFixed(5)}, ${lng.toFixed(5)}</span>` : ''
+
+    const popup = L.popup({ maxWidth: 280, className: 'photo-popup-wrap' }).setContent(`
       <div class="photo-popup">
-        <img src="${photo.dataUrl}" class="popup-img" />
-        <div class="popup-meta">
-          <strong>${hike.name}</strong>
-          <span class="popup-coords">${isPinned ? `📍 ${lat.toFixed(5)}, ${lng.toFixed(5)}` : '📍 Trailhead (no GPS in photo)'}</span>
+        <div class="popup-img-wrap">
+          <img src="${photo.dataUrl}" class="popup-img" />
+          ${captionHtml ? `<div class="popup-caption-overlay">${captionHtml}</div>` : ''}
+        </div>
+        <div class="popup-footer">
+          <span class="popup-hike-name">${hike.name}</span>
+          ${coordHtml}
         </div>
       </div>
     `)
