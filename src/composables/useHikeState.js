@@ -41,7 +41,7 @@ const selectedHikeId = reactive({ value: null })
 
   // localStorage empty — seed from the committed personal.json in the repo.
   try {
-    const res = await fetch('/personal.json')
+    const res = await fetch('./personal.json')
     if (res.ok) {
       const data = await res.json()
       // Merge: only overwrite hikes that actually have personal data in the file.

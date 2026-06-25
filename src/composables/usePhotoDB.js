@@ -64,7 +64,7 @@ let repoPhotosCache = null
 async function loadRepoPhotos() {
   if (repoPhotosCache) return repoPhotosCache
   try {
-    const res = await fetch('/hike-photos.json')
+    const res = await fetch('./hike-photos.json')
     if (!res.ok) { repoPhotosCache = {}; return {} }
     const data = await res.json()
     repoPhotosCache = data.hikes ?? {}
@@ -78,7 +78,7 @@ function repoPhotoToRecord(hikeId, p) {
   return {
     id:        `repo-${p.id ?? hikeId + '-' + p.filename}`,
     hikeId:    Number(hikeId),
-    dataUrl:   `/photos/${hikeId}/${p.filename}`,
+    dataUrl:   `./photos/${hikeId}/${p.filename}`,
     name:      p.caption || p.filename,
     lat:       p.lat  ?? null,
     lng:       p.lng  ?? null,
