@@ -1,0 +1,4 @@
+{
+  "_readme": "Add photos to public/photos/{hikeId}/ and list them here. lat/lng are optional — leave null if no GPS.",
+  "hikes": {}
+}

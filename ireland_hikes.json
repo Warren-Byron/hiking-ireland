@@ -1,0 +1,2645 @@
+{
+  "meta": {
+    "source": "The Hike Life",
+    "total_hikes": 50,
+    "provinces": [
+      "Connacht",
+      "Leinster",
+      "Munster",
+      "Ulster"
+    ],
+    "difficulty_scale": [
+      "easy",
+      "easy-to-moderate",
+      "moderate",
+      "moderate-to-hard",
+      "hard",
+      "very-hard"
+    ]
+  },
+  "hikes": [
+    {
+      "id": 1,
+      "name": "Benwee Head Cliff Walk",
+      "irish_name": "An Bhinn Bhuí",
+      "irish_meaning": "the yellow cliff",
+      "province": "Connacht",
+      "county": "Mayo",
+      "book_page": 33,
+      "osi_map": "22",
+      "height_m": 255,
+      "distance_km": 12.9,
+      "approx_time": "4.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Portacloy Loop Cliff Walk",
+      "elevation_m": 620,
+      "parking": "some around by the beach and pier",
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Nephin (p.37)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "June's Café and Coast Coffee in Ballycastle"
+        ],
+        "swim": [
+          "Belderrig tidal pool",
+          "Rinroe Beach",
+          "Portacloy Beach"
+        ],
+        "visit": [
+          "Ceide Fields and Downpatrick Head nearby"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nephin",
+      "irish_name": "Néifinn",
+      "irish_meaning": "possibly 'sanctuary'",
+      "province": "Connacht",
+      "county": "Mayo",
+      "book_page": 37,
+      "osi_map": "23/31",
+      "height_m": 806,
+      "distance_km": 7.7,
+      "approx_time": "3.5-4 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Nephin car park, Ballymoyock, Mayo",
+      "elevation_m": 740,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": {
+        "name": "Rachel",
+        "contact": "rachelsirishadventures.com"
+      },
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Old Post Office in Crossmolina",
+          "Café Rua in Castlebar"
+        ],
+        "swim": [],
+        "visit": [
+          "Wild Nephin National Park for other trails",
+          "Foxford Woollen Mills",
+          "The National Museum of Ireland - Country Life in Turlough"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 3,
+      "name": "Croaghaun",
+      "irish_name": "Cruachán",
+      "irish_meaning": "little stack",
+      "subtitle": "Keem Bay to Benmore and back",
+      "province": "Connacht",
+      "county": "Mayo",
+      "book_page": 41,
+      "osi_map": "22/30",
+      "height_m": 688,
+      "distance_km": 5,
+      "approx_time": "2 hours",
+      "difficulty": "moderate-to-hard",
+      "difficulty_notes": "short but steep with no markings and along cliff edge",
+      "route_type": "out-and-back",
+      "starting_point": "Keem Bay",
+      "elevation_m": 390,
+      "benmore_cliff_height_m": 332,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Not suitable for those uncomfortable with heights",
+      "recommended_guide": {
+        "name": "Allan McGee",
+        "contact": "allanmcgee509@hotmail.com"
+      },
+      "other_routes_in_area": [
+        "Croagh Patrick (p.45)",
+        "Nephin (p.37)",
+        "Benwee Head Cliff Walk (p.33)"
+      ],
+      "alternative_routes": [
+        {
+          "name": "Croaghaun Summit out-and-back",
+          "description": "Most direct route via the back of Acorrymore Lough",
+          "distance_km": 9,
+          "approx_time": "3.5-4 hours",
+          "difficulty": "hard",
+          "route_type": "out-and-back",
+          "starting_point": "Acorrymore Lough",
+          "elevation_m": 1187,
+          "parking": true,
+          "fee": false,
+          "dog_friendly": false
+        },
+        {
+          "name": "Croaghaun Cliffs and Mountain Loop",
+          "distance_km": 14.3,
+          "approx_time": "7-7.5 hours",
+          "difficulty": "very-hard",
+          "route_type": "looped",
+          "starting_point": "Keem Bay",
+          "elevation_m": 1170,
+          "parking": true,
+          "fee": false,
+          "dog_friendly": false
+        }
+      ],
+      "pit_stops": {
+        "eat": [
+          "Beehive Café",
+          "Amethyst Bar",
+          "Pure Magic for pizza",
+          "The Bervie for dinner",
+          "Blásta food truck",
+          "Dooagh Shop"
+        ],
+        "swim": [
+          "Watersports with Pure Magic",
+          "Swim and sauna with Sabhna Saunas",
+          "Dugort beach",
+          "Keem Bay"
+        ],
+        "visit": [
+          "The Deserted Village",
+          "Minaun Heights Viewpoint",
+          "White Cliffs of Ashleam Viewpoint"
+        ],
+        "off_the_island": [
+          "Ballycroy National Park",
+          "The Old Irish Goat Sanctuary in Mallaranny and Claggan mountain trail"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 4,
+      "name": "Croagh Patrick",
+      "irish_name": "Cruach Phádraig",
+      "irish_meaning": "Patrick's stack",
+      "subtitle": "Pilgrim Path",
+      "province": "Connacht",
+      "county": "Mayo",
+      "book_page": 45,
+      "osi_map": "30",
+      "height_m": 764,
+      "distance_km": 7,
+      "approx_time": "2.5-3.5 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Murrisk car park",
+      "elevation_m": 770,
+      "parking": true,
+      "fee": "€3 for 4 hours; pay and display",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Extremely busy at weekends; opt for off-peak times if you can",
+      "recommended_guide": {
+        "name": "Rachel",
+        "contact": "rachelsirishadventures.com"
+      },
+      "other_routes_in_area": [
+        "Mweelrea (p.49)",
+        "Ben Creggan (p.55)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Tavern Bar & Restaurant",
+          "The Creel Deli in Westport",
+          "Servd",
+          "This Must Be the Place",
+          "Arno's Bistrot"
+        ],
+        "swim": [
+          "Swim and a sauna at Old Head Beach"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 5,
+      "name": "Mweelrea",
+      "irish_name": "Cnoc Maol Réidh",
+      "irish_meaning": "bald hill with the smooth top",
+      "province": "Connacht",
+      "county": "Mayo",
+      "book_page": 49,
+      "osi_map": "37",
+      "height_m": 814,
+      "distance_km": 9.5,
+      "approx_time": "4 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Silver Strand",
+      "elevation_m": 775,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": [
+        {
+          "name": "Brian Bateson",
+          "contact": "climbit.ie"
+        },
+        {
+          "name": "Ger",
+          "contact": "climbconnemara@gmail.com"
+        }
+      ],
+      "other_routes_in_area": [
+        "Croagh Patrick (p.45)",
+        "Ben Creggan (p.55)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Seven Wanders Café in Louisburgh",
+          "Melody's Brew"
+        ],
+        "swim": [
+          "Silver Strand Beach"
+        ],
+        "visit": [
+          "Lost Valley Tour at Silver Strand",
+          "Doolough Valley"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ben Creggan",
+      "irish_name": "Binn an Chreagáin",
+      "irish_meaning": "peak of the rocky patch",
+      "province": "Connacht",
+      "county": "Mayo",
+      "book_page": 55,
+      "osi_map": "37",
+      "height_m": 693,
+      "distance_km": 12,
+      "approx_time": "4.5-5 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Aasleagh Falls car park",
+      "elevation_m": 1008,
+      "parking": "yes - also the car park for the falls, arrive early",
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": {
+        "name": "Ger",
+        "contact": "climbconnemara@gmail.com"
+      },
+      "other_routes_in_area": [
+        "Mweelrea (p.49)",
+        "Croagh Patrick (p.45)",
+        "Diamond Hill (p.59)",
+        "Binn idir an dá Log (p.65)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Misunderstood Heron food truck",
+          "Delphi Silver Food Truck by Doo Lough",
+          "The Purple Door Café in Leenane"
+        ],
+        "swim": [
+          "Glassilaun Beach"
+        ],
+        "visit": [
+          "Killary Fjord",
+          "Lough Nafooey Waterfall",
+          "Doo Lough"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 7,
+      "name": "Diamond Hill",
+      "irish_name": "Binn Ghuaire",
+      "irish_meaning": "Guaire's peak",
+      "subtitle": "Also known as Bengooria",
+      "province": "Connacht",
+      "county": "Galway",
+      "book_page": 59,
+      "osi_map": "37",
+      "height_m": 442,
+      "distance_km": 7.2,
+      "approx_time": "2-2.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": "well-marked but steep ground in areas",
+      "route_type": "looped",
+      "starting_point": "Connemara National Park",
+      "elevation_m": 400,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Errisbeg (p.69)",
+        "Binn idir an dá Log (p.65)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Misunderstood Heron by Killary Fjord",
+          "Fadó Pizza",
+          "The Sea Hare and Steam café in Clifden",
+          "Kabo Café in Letterfrack"
+        ],
+        "swim": [
+          "Dip at Glassilaun Beach"
+        ],
+        "visit": [
+          "Kylemore Abbey, Omey Island, and Cleggan Cliffs",
+          "Pine Island Viewpoint"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 8,
+      "name": "Binn idir an dá Log",
+      "irish_name": "Mám Éan / Binn idir an dá Log",
+      "irish_meaning": "pass of birds / peak between the two hollows",
+      "province": "Connacht",
+      "county": "Galway",
+      "book_page": 65,
+      "osi_map": "45",
+      "height_m": 702,
+      "distance_km": 13.2,
+      "approx_time": "5-6 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Pás Mám Éan car park",
+      "elevation_m": 1060,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": [
+        {
+          "name": "Ger",
+          "contact": "climbconnemara@gmail.com"
+        },
+        {
+          "name": "Michelle",
+          "contact": "wildfullstop.com"
+        }
+      ],
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Misunderstood Heron",
+          "In Clifden: Fadó Pizza, Guys Bar, Steam Café and the Lamplight Wine Bar"
+        ],
+        "swim": [
+          "Glassilaun Beach",
+          "Eyrephort Beach",
+          "Fountainhill Beach"
+        ],
+        "visit": [
+          "Lough Inagh Viewpoint",
+          "Pine Island Viewpoint",
+          "Connemara Heritage and History Centre",
+          "Drive the Sky Road",
+          "Omey Island when the tide is out"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 9,
+      "name": "Errisbeg",
+      "irish_name": "Iorras Beag",
+      "irish_meaning": "little peninsula",
+      "province": "Connacht",
+      "county": "Galway",
+      "book_page": 69,
+      "osi_map": "44",
+      "height_m": 300,
+      "distance_km": 6,
+      "approx_time": "2 hours",
+      "difficulty": "easy-to-moderate",
+      "difficulty_notes": "no markings, navigation required",
+      "route_type": "out-and-back",
+      "starting_point": "Roundstone village",
+      "elevation_m": 290,
+      "parking": true,
+      "fee": "on-street parking",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Coffee Cottage and Bogbean Café in Roundstone",
+          "O'Dowd's for dinner and a pint",
+          "Sweet Nothings café in Ballyconneely"
+        ],
+        "swim": [
+          "Dip at Dog's Bay / Gurteen side"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 10,
+      "name": "Benbulbin Forest Walk",
+      "irish_name": "Binn Ghulbain",
+      "irish_meaning": "beak-shaped peak or Gulban's peak",
+      "province": "Connacht",
+      "county": "Sligo",
+      "book_page": 73,
+      "osi_map": "16",
+      "height_m": 526,
+      "distance_km": 5.6,
+      "approx_time": "1.5 hours",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "looped (anti-clockwise)",
+      "starting_point": "Gortarowey Forest Recreation Park",
+      "elevation_m": 125,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Queen Maeve's Trail, Knocknarea (p.79)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Baker Boys, Nook, Rover Coffee Lab, Milligram Coffee, and Flipside in Sligo Town",
+          "The Driftwood at Rosses Point",
+          "The Little Cottage Café"
+        ],
+        "swim": [
+          "Bishop's Pool",
+          "Rosses Point, Sligo",
+          "Hot Box sauna at Deadman's Pier"
+        ],
+        "visit": [
+          "Surf at Mullaghmore Beach",
+          "Glencar Waterfall and Devil's Chimney Waterfall",
+          "Drive the Gleniff Horseshoe Road",
+          "Eagles Rock",
+          "Island View Stables horse riding"
+        ]
+      },
+      "personal": {
+        "completed": true,
+        "date_completed": "2025-07-13",
+        "rating": 5.5,
+        "notes": null
+      }
+    },
+    {
+      "id": 11,
+      "name": "Queen Maeve's Trail, Knocknarea",
+      "irish_name": "Cnoc Na Rí",
+      "irish_meaning": "Hill of Rings",
+      "subtitle": "Knocknarea",
+      "province": "Connacht",
+      "county": "Sligo",
+      "book_page": 79,
+      "osi_map": "16",
+      "height_m": 315,
+      "distance_km": 5.3,
+      "approx_time": "1.5 hours",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Sligo Rugby Club, Strandhill, Co. Sligo",
+      "elevation_m": 315,
+      "parking": true,
+      "fee": "€2 donation box",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "marked": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Benbulbin Forest Walk (p.73)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Shells Café",
+          "Mammy Johnston's",
+          "Fire Dough Pizza",
+          "Stoked"
+        ],
+        "swim": [
+          "Bishop's Pool"
+        ],
+        "visit": [
+          "VOYA seaweed baths in Strandhill",
+          "Strandhill Surf School for water sports"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 12,
+      "name": "Howth Cliff Walk",
+      "irish_name": "Binn Éadair",
+      "irish_meaning": "peak of Étar",
+      "province": "Leinster",
+      "county": "Dublin",
+      "book_page": 85,
+      "osi_map": "50",
+      "height_m": null,
+      "distance_km": 12.5,
+      "approx_time": "3.5-4 hours",
+      "difficulty": "easy",
+      "difficulty_notes": "easy, but long and close to the cliff edge",
+      "route_type": "looped",
+      "starting_point": "Howth Hub at the end of Balscadden Road",
+      "elevation_m": 330,
+      "parking": true,
+      "fee": "yes, roadside parking (depends on the day)",
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [],
+        "swim": [
+          "Balscadden Beach",
+          "Rock pools along the cliff walk (experienced hikers only)",
+          "North Bull Island swimming spot near Happy Out café"
+        ],
+        "visit": [
+          "Howth village for a wander",
+          "Howth market along to the East Pier — Mamó, Margadh, and POG Howth"
+        ]
+      },
+      "personal": {
+        "completed": true,
+        "date_completed": "2025-08-02",
+        "rating": 12.5,
+        "notes": null
+      }
+    },
+    {
+      "id": 13,
+      "name": "Lough Bray Loop",
+      "irish_name": null,
+      "irish_meaning": null,
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 91,
+      "osi_map": "56",
+      "height_m": null,
+      "distance_km": 6.9,
+      "approx_time": "2-2.5 hours",
+      "difficulty": "easy-to-moderate",
+      "difficulty_notes": "steep descent section",
+      "route_type": "loop (clockwise)",
+      "starting_point": "Lough Bray Parking",
+      "elevation_m": 280,
+      "parking": "yes, but small — arrive early",
+      "fee": false,
+      "dog_friendly": "partial — not on full loop (private land on lower side), but yes on upper loop",
+      "dog_friendly_notes": "on a leash for upper loop",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Djouce via Ballinastoe Woods (p.105)",
+        "Great and Little Sugarloaf (p.111)",
+        "Glendalough Spinc and Glenealo Valley Loop (p.121)"
+      ],
+      "alternative_routes": [
+        {
+          "name": "Upper Lough Bray Loop",
+          "description": "Gentler shorter option",
+          "distance_km": 3.5,
+          "approx_time": "1-1.5 hours",
+          "difficulty": "easy-to-moderate",
+          "difficulty_notes": "steep descent from Eagles Crag requires good head for heights",
+          "route_type": "looped",
+          "starting_point": "Lough Bray parking",
+          "elevation_m": 140,
+          "parking": true,
+          "fee": false,
+          "dog_friendly": true,
+          "dog_friendly_notes": "on a leash",
+          "special_notes": "Best taken anti-clockwise to avoid coming down the steep section"
+        }
+      ],
+      "pit_stops": {
+        "eat": [
+          "Catalyst in Bray",
+          "oHSo in Enniskerry"
+        ],
+        "swim": [
+          "Dip in the upper lake after finishing your hike"
+        ],
+        "visit": [
+          "Lough Tay viewpoint"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 14,
+      "name": "Fairy Castle Loop, Ticknock",
+      "irish_name": null,
+      "irish_meaning": null,
+      "subtitle": "Ticknock",
+      "province": "Leinster",
+      "county": "Dublin",
+      "book_page": 95,
+      "osi_map": "50",
+      "height_m": 536,
+      "distance_km": 5.9,
+      "approx_time": "1.5 hours",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "loop (clockwise)",
+      "starting_point": "Ticknock Forest car park",
+      "elevation_m": 275,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "special_notes": "Sunrise viewpoint: walk past the masts straight on ~200m for large boulders with sea and Sugarloaf views",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Maulin Mountain Loop (p.99)",
+        "Great and Little Sugarloaf (p.111)",
+        "Lough Bray Loop (p.91)",
+        "Howth Cliff Walk (p.85)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Trails Café in Ticknock car park",
+          "Timbertrove Café",
+          "Woodruff on Enniskerry Road"
+        ],
+        "swim": [
+          "Vico Baths",
+          "Forty Foot",
+          "Seapoint"
+        ],
+        "visit": [
+          "Zipit Forest Adventures",
+          "Glencullen Adventure Park for mountain biking"
+        ]
+      },
+      "personal": {
+        "completed": true,
+        "date_completed": "2025-11-10",
+        "rating": 3.9,
+        "notes": null
+      }
+    },
+    {
+      "id": 15,
+      "name": "Maulin Mountain Loop",
+      "irish_name": "Málainn",
+      "irish_meaning": "possibly 'high or sloping ground'",
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 99,
+      "osi_map": "56",
+      "height_m": 570,
+      "distance_km": 9.5,
+      "approx_time": "2.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Crone Woods car park",
+      "elevation_m": 450,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": null,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Lough Bray Loop (p.91)",
+        "Great and Little Sugarloaf (p.111)",
+        "Djouce via Ballinastoe Woods (p.105)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Powerscourt House and Gardens",
+          "Catalyst and Daata in Bray"
+        ],
+        "swim": [
+          "Rock pools along Powerscourt Waterfall",
+          "Lough Bray Upper (keep close to the shore)"
+        ],
+        "visit": [
+          "Powerscourt Waterfall (paid entry)",
+          "Lough Tay"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 16,
+      "name": "Djouce via Ballinastoe Woods",
+      "irish_name": "Dioghais",
+      "irish_meaning": "fortified height",
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 105,
+      "osi_map": "56",
+      "height_m": 725.5,
+      "distance_km": 10,
+      "approx_time": "2-2.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Car park at Lugalla (53.096188, -6.250871) — weekends only from 8am; midweek use layby parking",
+      "elevation_m": 415,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Great and Little Sugarloaf (p.111)",
+        "Lough Bray Loop (p.91)",
+        "Glendalough Spinc and Glenealo Valley Loop (p.121)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Roundwood Stores",
+          "Turquoise Café"
+        ],
+        "swim": [
+          "Lough Bray Upper (keep close to the shore)"
+        ],
+        "visit": [
+          "Lough Tay Viewpoint",
+          "Powerscourt Waterfall (entry fee)"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 17,
+      "name": "Great and Little Sugarloaf",
+      "irish_name": null,
+      "irish_meaning": null,
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 111,
+      "osi_map": "56",
+      "height_m": null,
+      "distance_km": null,
+      "approx_time": null,
+      "difficulty": "easy-to-moderate",
+      "difficulty_notes": "scree terrain",
+      "route_type": null,
+      "starting_point": null,
+      "elevation_m": null,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Djouce via Ballinastoe Woods (p.105)",
+        "Lough Bray Loop (p.91)",
+        "Glendalough Spinc and Glenealo Valley Loop (p.121)"
+      ],
+      "sub_hikes": {
+        "great_sugarloaf": {
+          "height_m": 501.2,
+          "distance_km": 2.7,
+          "approx_time": "1 hour",
+          "difficulty": "moderate",
+          "route_type": "out-and-back",
+          "starting_point": "Great Sugarloaf car park, Glencap Commons South, Wicklow",
+          "elevation_m": 190,
+          "parking": true
+        },
+        "little_sugarloaf": {
+          "height_m": 342.4,
+          "distance_km": 2,
+          "approx_time": "0.5-1 hour",
+          "difficulty": "easy",
+          "route_type": "looped",
+          "starting_point": "Little Sugarloaf car park, 6 Bohilla Ln, Barchuillia Commons, Wicklow",
+          "elevation_m": 187,
+          "parking": "yes, but only a small layby for 3-4 cars"
+        }
+      },
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Catalyst in Bray",
+          "Fat Fox and the Happy Pear in Greystones",
+          "Killruddery House Saturday market"
+        ],
+        "swim": [
+          "Bray Beach",
+          "Greystones dive point / Fad Saoil sauna",
+          "The Vico and Forty Foot"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 18,
+      "name": "Tonelagee and Lough Ouler",
+      "irish_name": "Tóin le Gaoith",
+      "irish_meaning": "backside to the wind",
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 117,
+      "osi_map": "56",
+      "height_m": 815.8,
+      "distance_km": 4.8,
+      "approx_time": "2.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Wicklow Mountains Viewing Platform car park beside Turlough Hill car park",
+      "elevation_m": 420,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Glendalough Spinc and Glenealo Valley Loop (p.121)",
+        "Lugnaquilla (p.127)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Glendalough Green café",
+          "The Roundwood Stores",
+          "The Wicklow Heather",
+          "Hollywood Café",
+          "Lynhams for a pint"
+        ],
+        "swim": [
+          "St Kevin's Pool"
+        ],
+        "visit": [
+          "Kevin's Bridge and St Kevin's Lead and Zinc Mine site",
+          "Glendalough Lake and Round Tower",
+          "Jackson Falls",
+          "Glenmacnass Falls"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 19,
+      "name": "Glendalough Spinc and Glenealo Valley Loop",
+      "irish_name": null,
+      "irish_meaning": null,
+      "subtitle": "The White Route, Wicklow",
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 121,
+      "osi_map": "56",
+      "height_m": null,
+      "distance_km": 9.6,
+      "approx_time": "2.5-3 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "looped (clockwise)",
+      "starting_point": "Glendalough Upper Lake car park",
+      "elevation_m": 450,
+      "parking": true,
+      "fee": "€4 cash or card; tap and pay available. Check opening times as seasonal.",
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Tonelagee and Lough Ouler (p.117)",
+        "Lugnaquilla (p.127)",
+        "Spinc Short Blue Route (6km)",
+        "Derrybawn Woodland Loop Trail (8km)",
+        "The Green Road Loop (3km)",
+        "Spinc and the Wicklow Way Loop (11.5km)",
+        "Miners Road Walk (5km)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Wicklow Heather",
+          "Glendalough Green Café",
+          "The Roundwood Stores",
+          "Hollywood Café"
+        ],
+        "swim": [
+          "Glenealo River rock pools on the Miners' Way just before the switchbacks"
+        ],
+        "visit": [
+          "Glendalough Round Tower and visitor centre",
+          "Upper Lake area by the car park"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 20,
+      "name": "Lugnaquilla",
+      "irish_name": "Log na Coille",
+      "irish_meaning": "hollow of the wood",
+      "province": "Leinster",
+      "county": "Wicklow",
+      "book_page": 127,
+      "osi_map": "56",
+      "height_m": 924.7,
+      "distance_km": 13.5,
+      "approx_time": "4.5-5 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Baravore car park, Glen Road (watch out for goats and kids along the road)",
+      "elevation_m": 790,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": [
+        {
+          "name": "Catherine",
+          "contact": "tworockoutdoor.ie"
+        },
+        {
+          "name": "Simon",
+          "contact": "adventureburn.com"
+        },
+        {
+          "name": "Cindy",
+          "contact": "adventure.ie"
+        }
+      ],
+      "other_routes_in_area": [
+        "Glendalough Spinc and Glenealo Valley Loop (p.121)",
+        "Tonelagee and Lough Ouler (p.117)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Glendalough Green café",
+          "The Wicklow Heather",
+          "The Roundwood Stores",
+          "Grangecon Kitchen"
+        ],
+        "swim": [
+          "Bosca Beatha Sauna in Glenmalure (certain days)",
+          "Coolalingo Waterfalls in Glenmalure Forest"
+        ],
+        "visit": [
+          "The Glenmalure Lodge"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 21,
+      "name": "Blackstairs Mountain",
+      "irish_name": "An Charraig Dhubh",
+      "irish_meaning": "the black rock",
+      "province": "Leinster",
+      "county": "Carlow",
+      "book_page": 133,
+      "osi_map": "68",
+      "height_m": 732,
+      "distance_km": 7.1,
+      "approx_time": "2.5-3 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Scullogue Gap car park, unnamed road, Coonogue, Co. Carlow (beside Blackstairs Mountain Trail Start)",
+      "elevation_m": 507,
+      "parking": "yes, only 2-3 spaces in layby; if full use Shannona Lane parking (5 spaces)",
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Mount Leinster via Knockroe Hill"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Clashganny House Restaurant"
+        ],
+        "swim": [
+          "Clashganny Lock",
+          "Graiguenamanagh Diving Board"
+        ],
+        "visit": [
+          "Silaire Woods"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 22,
+      "name": "Slieve Bloom",
+      "irish_name": "Sliabh Bladhma",
+      "irish_meaning": "mountain-range of Bladhma",
+      "subtitle": "Glenbarrow Waterfall Loop, Laois",
+      "province": "Leinster",
+      "county": "Laois",
+      "book_page": 137,
+      "osi_map": "54",
+      "height_m": null,
+      "distance_km": 4.3,
+      "approx_time": "1.5-2 hours",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "looped (anti-clockwise)",
+      "starting_point": "Glenbarrow Trailhead parking area",
+      "elevation_m": 290,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Glenbarrow Eco Way (8.5km)",
+        "The Old Mill loop (10.5km)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Brew Café",
+          "Square Café",
+          "The Wandering Elk",
+          "The Pantry",
+          "The Walled Garden"
+        ],
+        "swim": [
+          "Cathole Falls"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": true,
+        "date_completed": "2025-07-20",
+        "rating": 4.3,
+        "notes": null
+      }
+    },
+    {
+      "id": 23,
+      "name": "Slieve Foye",
+      "irish_name": "Sliabh Feá / Sliabh Fathaigh",
+      "irish_meaning": "mountain of rushes / mountain of the giant",
+      "province": "Leinster",
+      "county": "Louth",
+      "book_page": 141,
+      "osi_map": "29",
+      "height_m": 589,
+      "distance_km": 9,
+      "approx_time": "2.5-3 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Tourist office car park, Carlingford",
+      "elevation_m": 573,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": {
+        "name": "Clodagh McKevitt",
+        "contact": "Anam Tours"
+      },
+      "other_routes_in_area": [
+        "Slieve Donard (p.257)",
+        "Slieve Binnian (p.269)",
+        "Slieve Bearnagh (p.261)",
+        "Slieve Doan (p.265)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Wildwood Street Food Box",
+          "Ruby Ellen's Tea Rooms",
+          "Ghan House for dinner"
+        ],
+        "swim": [
+          "Dip at Carlingford Pier"
+        ],
+        "visit": [
+          "Carlingford Castle",
+          "Boat tour of Carlingford Lough",
+          "Cycle the greenway to Omeath",
+          "Strandfield"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 24,
+      "name": "Galtymore",
+      "irish_name": "Cnoc Mór na nGaibhlte",
+      "irish_meaning": "big hill of the Galtees",
+      "province": "Munster",
+      "county": "Tipperary",
+      "book_page": 147,
+      "osi_map": "74",
+      "height_m": 918,
+      "distance_km": 11,
+      "approx_time": "3.5-4 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Galtyway Climb Car Park",
+      "elevation_m": 560,
+      "parking": "yes, very small layby — do not block access ways; if full, opt for another route",
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Walk over to the western peak for views over Lough Curra",
+      "recommended_guide": {
+        "name": "Julie Reeves",
+        "contact": "juliereeveswalking@gmail.com"
+      },
+      "other_routes_in_area": [
+        "Knockmealdown Mountain (p.151)",
+        "Slievenamon (p.155)",
+        "Coumshigaun Loop (p.159)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Mikey Ryan's in Cashel",
+          "Spearman's Bakery in Cashel",
+          "Lava Rock in Cahir",
+          "Town Coffee Company in Mitchelstown",
+          "O'Callaghan's Café in Mitchelstown"
+        ],
+        "swim": [],
+        "visit": [
+          "The Rock of Cashel",
+          "Cahir Castle and the Swiss Cottage",
+          "Mitchelstown Caves"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 25,
+      "name": "Knockmealdown Mountain",
+      "irish_name": "Cnoc Mhaoldomhnaigh",
+      "irish_meaning": "hill of Maoldomhnach",
+      "province": "Munster",
+      "county": "Tipperary",
+      "book_page": 151,
+      "osi_map": "74",
+      "height_m": 792.4,
+      "distance_km": 8.6,
+      "approx_time": "3.5 hours",
+      "difficulty": "moderate-to-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "The Vee car park by the shrine to Our Lady of Lourdes, Bohernagore West, Balliniry, Tipperary",
+      "elevation_m": 740,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Galtymore (p.147)",
+        "Slievenamon (p.155)",
+        "Coumshigaun Loop (p.159)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Vinilo Bakery in Lismore town"
+        ],
+        "swim": [
+          "Dip at Doon Waterfall"
+        ],
+        "visit": [
+          "Bay Lough by the car park",
+          "Whitewall Bridge Viewpoint rhododendrons (mid-May to mid-June)",
+          "Lismore Castle and Gardens",
+          "Ballysaggartmore Towers",
+          "Dromana Gate"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 26,
+      "name": "Slievenamon",
+      "irish_name": "Sliabh na mBan",
+      "irish_meaning": "mountain of the women",
+      "province": "Munster",
+      "county": "Tipperary",
+      "book_page": 155,
+      "osi_map": "67",
+      "height_m": 720.2,
+      "distance_km": 6,
+      "approx_time": "2.5 hours",
+      "difficulty": "moderate-to-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Slievenamon Walk Parking, Kilcash",
+      "elevation_m": 474,
+      "parking": "yes — 8-10 spaces by the road, or park at Kilcash village community centre (adds 2km)",
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Coumshigaun Loop (p.159)",
+        "Galtymore (p.147)",
+        "Knockmealdown Mountain (p.151)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Fetch in Clonmel",
+          "Fenelly's in Callan",
+          "Dooks in Fethard"
+        ],
+        "swim": [],
+        "visit": [
+          "Kilcash Castle",
+          "Carey's Castle"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 27,
+      "name": "Coumshingaun Loop",
+      "irish_name": "Com Seangán",
+      "irish_meaning": "Coum of the Ants",
+      "province": "Munster",
+      "county": "Waterford",
+      "book_page": 159,
+      "osi_map": "75",
+      "height_m": 760,
+      "distance_km": 7.8,
+      "approx_time": "4 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Kilclooney Wood car park, Cutteen, Waterford",
+      "elevation_m": 610,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": "however, lough and back section is dog-friendly",
+      "special_notes": "Advised to do on a clear day with little wind. No markings — experienced hikers only.",
+      "recommended_guide": [
+        {
+          "name": "Julie Reeves",
+          "contact": "juliereeveswalking@gmail.com"
+        },
+        {
+          "name": "Tom Meehan",
+          "contact": "rosswalking1@gmail.com"
+        }
+      ],
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Cooney's Yard",
+          "Crough Coffee"
+        ],
+        "swim": [
+          "Coumshingaun Lough",
+          "Lough Mohra"
+        ],
+        "visit": [
+          "Mahon Falls Waterfall and the Magic Road"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 28,
+      "name": "Dunmore East Cliff Walk",
+      "irish_name": "Dún Mór",
+      "irish_meaning": "big fort",
+      "province": "Munster",
+      "county": "Waterford",
+      "book_page": 165,
+      "osi_map": "76",
+      "height_m": 720.2,
+      "distance_km": 14.4,
+      "approx_time": "4 hours",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Public car park, Coxtown East, Co. Waterford",
+      "elevation_m": 352,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [
+        {
+          "name": "Dunmore East to Ballymacaw",
+          "distance_km": 7.2,
+          "approx_time": "1.5-2 hours",
+          "difficulty": "moderate",
+          "route_type": "A-to-B",
+          "starting_point": "Public car park, Coxtown East, Co. Waterford",
+          "elevation_m": 176,
+          "parking": "yes, lots at start; small amount at Ballymacaw",
+          "fee": false,
+          "dog_friendly": true,
+          "dog_friendly_notes": "on a leash",
+          "special_notes": "Very narrow road to access the cove"
+        }
+      ],
+      "pit_stops": {
+        "eat": [
+          "Seagull Bakery",
+          "East Pier takeaway",
+          "Samphire Bar and Bistro",
+          "The Spinnaker"
+        ],
+        "swim": [
+          "Ladies Cove",
+          "Lawlors Beach",
+          "Councillors Strand",
+          "Ballymacaw Beach and pier area"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": true,
+        "date_completed": "2025-07-27",
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 29,
+      "name": "Mullaghmore Loop, the Burren",
+      "irish_name": "Mullach Mór",
+      "irish_meaning": "big summit",
+      "province": "Munster",
+      "county": "Clare",
+      "book_page": 171,
+      "osi_map": "52",
+      "height_m": 180,
+      "distance_km": 7.5,
+      "approx_time": "3 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "loop",
+      "starting_point": "Gortlecka Crossroads, Knockaunroe (layby parking)",
+      "elevation_m": 140,
+      "parking": "yes, plus bus transport to the park in summer months",
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Wild Beans",
+          "Siar",
+          "Burren Perfumery café",
+          "Morning Dew in Corofin"
+        ],
+        "swim": [
+          "Dip at Ballyalla Lake",
+          "Swim at Tracht Beach"
+        ],
+        "visit": [
+          "Caherconnell stone fort and Ailwee Cave",
+          "St Kevin's Stump (Father Ted fans)",
+          "Kinvara village",
+          "Dunguaire Castle",
+          "Poulnabrone Dolmen"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 30,
+      "name": "Cliffs of Moher Coastal Trail",
+      "irish_name": "Aillte an Mhothair",
+      "irish_meaning": "cliffs of the ruin/thicket",
+      "province": "Munster",
+      "county": "Clare",
+      "book_page": 175,
+      "osi_map": "51",
+      "height_m": 214,
+      "distance_km": 22.7,
+      "approx_time": "5-5.5 hours",
+      "difficulty": "easy",
+      "difficulty_notes": "easy, but long and close to the cliff edge",
+      "route_type": "out-and-back or A-to-B if two cars",
+      "starting_point": "Doolin village",
+      "elevation_m": 670,
+      "parking": true,
+      "fee": "yes, on-street parking",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Can break the trail at Doolin, Liscannor, or the visitor centre. Trail hugs cliff edge and is only partially fenced.",
+      "recommended_guide": {
+        "name": "Brian Bateson",
+        "contact": "climbit.ie"
+      },
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Russell's Seafood Bar",
+          "Gus O'Connor's",
+          "The Ivy Cottage",
+          "Cupán",
+          "Doolin Café",
+          "Homestead Cottage",
+          "Glas Restaurant"
+        ],
+        "swim": [
+          "Doolin Pier",
+          "Clahane Shore Area",
+          "Fanore Beach"
+        ],
+        "visit": [
+          "Doolin Cave",
+          "Blackhead Lighthouse",
+          "Day trip to the Aran Islands"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 31,
+      "name": "Mount Brandon",
+      "irish_name": "Cnoc Bréanainn",
+      "irish_meaning": "Brendan's hill",
+      "subtitle": "Mount Brandon via the Pilgrim's Path and Saints' Road",
+      "province": "Munster",
+      "county": "Kerry",
+      "book_page": 179,
+      "osi_map": "70",
+      "height_m": 951.7,
+      "distance_km": 8.4,
+      "approx_time": "3-3.5 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Brandon car park, Ballybrack, Kerry",
+      "elevation_m": 760,
+      "parking": true,
+      "fee": false,
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Alternative routes: via Patternoster Lakes (very hard but stunning) and via Faha Ridge (grade 2 scrambling, requires mountain leader)",
+      "recommended_guide": {
+        "name": "Kerry Climbing team",
+        "contact": "kerryclimbing.ie"
+      },
+      "other_routes_in_area": [
+        "Mount Eagle (p.185)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [],
+        "swim": [],
+        "visit": []
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 32,
+      "name": "Mount Eagle",
+      "irish_name": "Sliabh an Iolair",
+      "irish_meaning": "mountain of the eagle",
+      "province": "Munster",
+      "county": "Kerry",
+      "book_page": 185,
+      "osi_map": "70",
+      "height_m": 516,
+      "distance_km": 7.6,
+      "approx_time": "2 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Google pin location (52.13172394,-10.44062250) — Mount Eagle Start Point",
+      "elevation_m": 380,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Mount Brandon (p.179)"
+      ],
+      "alternative_routes": [
+        {
+          "name": "Loop via Coumeenole lake",
+          "description": "Can hike as a loop returning down via the lake — approx 8km. Terrain is boggy underfoot but it can be done. Also an option to hike Mount Eagle from Slea Head for a different parking option."
+        }
+      ],
+      "pit_stops": {
+        "eat": [
+          "My Boy Blue for brunch",
+          "Bean Dingle for coffee",
+          "Thyme Café for lunch",
+          "Pig and the Leaf for food to go",
+          "Doyle's for dinner"
+        ],
+        "swim": [
+          "Wine Strand"
+        ],
+        "visit": [
+          "Coumeenole Beach",
+          "Dunmore Head",
+          "Dunquin Pier (Cé Dhún Chaoin)"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "parking_notes": "yes, but only space for two cars max",
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 33,
+      "name": "Carrauntoohil",
+      "irish_name": "Corrán Tuathail",
+      "irish_meaning": "Tuathal's sickle",
+      "province": "Munster",
+      "county": "Kerry",
+      "book_page": 189,
+      "osi_map": "78",
+      "height_m": 1038.6,
+      "distance_km": 13.5,
+      "approx_time": "5-6 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Cronin's Yard",
+      "elevation_m": 985,
+      "parking": true,
+      "fee": "€2 in coins",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Most standard route is via Devil's Ladder. Alternative routes (require mountain leader): Brother O'Shea's Gully via the Zigzags (14km, 5-6hrs, hard); Coomloughra Horseshoe taking in MacGillycuddy's Reeks (12.7km, 6.5-7hrs, very tough)",
+      "recommended_guide": {
+        "name": "Kerry Climbing team",
+        "contact": "kerryclimbing.ie"
+      },
+      "other_routes_in_area": [
+        "Mangerton Mountain Loop (p.199)",
+        "Torc Waterfall and Mountain (p.195)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Emilie's",
+          "Kingdom 1795",
+          "Leaf and Larder"
+        ],
+        "swim": [
+          "Lakes along route of Carrauntoohil (long way back to car park)",
+          "Rossbeigh Strand",
+          "Caragh Lake"
+        ],
+        "visit": [
+          "Gap of Dunloe (park at Kate Kearney's)",
+          "Wishing Bridge / The Heather for food",
+          "Skellig Islands from Portmagee",
+          "Kerry Cliffs",
+          "Valentia Island"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 34,
+      "name": "Torc Waterfall and Mountain",
+      "irish_name": "Sliabh Torc",
+      "irish_meaning": "mountain of wild boar",
+      "province": "Munster",
+      "county": "Kerry",
+      "book_page": 195,
+      "osi_map": "78",
+      "height_m": 535,
+      "distance_km": 9.8,
+      "approx_time": "2.5-3 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Torc Waterfall car park (52.0060022, -9.5061961) / 2F4V+CHC, Cloghereen Upper, Brackloon, Co. Kerry",
+      "elevation_m": 553,
+      "parking": "yes — limited spaces, go at off-peak times. Can also bus from Killarney.",
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Café du Parc",
+          "Hilliard's for dinner",
+          "Good Boy coffee roasters",
+          "Luna",
+          "John M. Reidy's for a pint"
+        ],
+        "swim": [
+          "Muckross Lake Torc 'Bridge' secret spot — from upper car park, cross road, turn left at small stone bridge"
+        ],
+        "visit": [
+          "Killarney National Park",
+          "O'Sullivan's Cascade",
+          "Gap of Dunloe (park at Kate Kearney's)",
+          "Ladies View"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 35,
+      "name": "Mangerton Mountain Loop",
+      "irish_name": "An Mhangarta",
+      "irish_meaning": "possibly 'the long-haired (mountain)'",
+      "subtitle": "The Devil's Punch Bowl Loop",
+      "province": "Munster",
+      "county": "Kerry",
+      "book_page": 199,
+      "osi_map": "78",
+      "height_m": 838.2,
+      "distance_km": 9.7,
+      "approx_time": "4 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Mangerton Walk Start, Gortagullane, Co. Kerry",
+      "elevation_m": 700,
+      "parking": "yes — small car park, park tightly and don't obstruct entrances",
+      "fee": false,
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": {
+        "name": "Kerry Climbing team",
+        "contact": "kerryclimbing.ie"
+      },
+      "other_routes_in_area": [
+        "Torc Waterfall and Mountain (p.195)",
+        "Carrauntoohil (p.189)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Luna",
+          "Hilliard's",
+          "Café Du Parc",
+          "Good Boy coffee",
+          "John M. Reidy's",
+          "Rozzers"
+        ],
+        "swim": [
+          "Lake Muckross, Dundag"
+        ],
+        "visit": [
+          "Torc Waterfall",
+          "O'Sullivans Cascade",
+          "The Gap of Dunloe",
+          "Ladies View",
+          "Cruise on the Lakes of Killarney"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 36,
+      "name": "Gougane Barra",
+      "irish_name": "Guagán Barra",
+      "irish_meaning": "the rock cleft of Barra",
+      "province": "Munster",
+      "county": "Cork",
+      "book_page": 203,
+      "osi_map": "85",
+      "height_m": null,
+      "distance_km": 7.4,
+      "approx_time": "1.5-2 hours",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "loop",
+      "starting_point": "St Finbarr's Well",
+      "elevation_m": 180,
+      "parking": true,
+      "fee": "€5 if parking inside the national park (shortens route)",
+      "dog_friendly": true,
+      "dog_friendly_notes": "on a leash",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Sheep's Head Lighthouse Loop (p.207)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Coffee Bee Café at Future Forests Garden Centre",
+          "Garnish restaurant in Glengariff",
+          "Manning's Emporium in Ballylicky"
+        ],
+        "swim": [
+          "Snave Pier",
+          "Glengariff Blue Pool (Linn Snámha Ghleann Garbh)"
+        ],
+        "visit": [
+          "Glengariff Forest Park",
+          "Garnish Island"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 37,
+      "name": "Sheep's Head Lighthouse Loop",
+      "irish_name": "Muintir Bháire",
+      "irish_meaning": "named after local family Ó Báire (unrelated to sheep or goats)",
+      "province": "Munster",
+      "county": "Cork",
+      "book_page": 207,
+      "osi_map": "88",
+      "height_m": 838.2,
+      "distance_km": 4.4,
+      "approx_time": "1.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": "easy option available",
+      "route_type": "loop",
+      "starting_point": "Tooreen car park / Bernie's Café",
+      "elevation_m": 150,
+      "parking": true,
+      "fee": "no (but please call into Bernie's if open to support)",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "special_notes": "Other trails in the area: Poet's Way Loop (16km) and Peakeen Ridge Loop (11km) for more challenge",
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Gougane Barra (p.203)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Stuffed Olive in Bantry",
+          "West Café wine bar in Bantry",
+          "Organico in Bantry",
+          "Arundels By The Pier in Bantry",
+          "Heron Gallery Café and Gardens in Bantry"
+        ],
+        "swim": [
+          "Kilcrohane pier"
+        ],
+        "visit": [
+          "Bantry House",
+          "Dunlough Fort, Mizen Head, Barleycove, and Ballyrisode Beach"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 38,
+      "name": "Cuilcagh",
+      "irish_name": "Binn Chuilceach",
+      "irish_meaning": "chalky peak",
+      "subtitle": "Stairway to Heaven",
+      "province": "Ulster",
+      "county": "Fermanagh",
+      "book_page": 213,
+      "osi_map": "26",
+      "height_m": 666,
+      "distance_km": 11,
+      "approx_time": "3 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Cuilcagh Mountain Park and Cuilcagh Boardwalk (privately owned car park, pre-booking required via their website). Alternative: Killykeegan Nature Reserve car park (1km past trailhead)",
+      "elevation_m": 460,
+      "parking": true,
+      "fee": "€6 at Cuilcagh Mountain Park and Cuilcagh Boardwalk",
+      "dog_friendly": false,
+      "dog_friendly_notes": null,
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Street Kitchen in Enniskillen",
+          "Folk in Enniskillen",
+          "The Toastery in Enniskillen"
+        ],
+        "swim": [
+          "Trory jetty"
+        ],
+        "visit": [
+          "The Marble Arch Caves",
+          "Killykeegan National Nature Reserve",
+          "Florence Court Gardens and Tully Mill",
+          "Cladagh Glen"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 39,
+      "name": "Slieve League",
+      "irish_name": "Sliabh Liag",
+      "irish_meaning": "mountain of the flagstones",
+      "province": "Ulster",
+      "county": "Donegal",
+      "book_page": 217,
+      "osi_map": "10",
+      "height_m": 596.4,
+      "distance_km": 12.7,
+      "approx_time": "5 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": "easy options available",
+      "route_type": "out-and-back",
+      "starting_point": "Slieve League car park",
+      "elevation_m": 670,
+      "parking": true,
+      "fee": "€5 per 2 hours or €15 all day",
+      "dog_friendly": true,
+      "dog_friendly_notes": "technically yes on leash, but not advised — very narrow with significant drops",
+      "recommended_guide": {
+        "name": "Iain Miller",
+        "contact": "uniqueascent.ie"
+      },
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "The Rusty Mackerel",
+          "Ahoy Café"
+        ],
+        "swim": [
+          "Fintra Beach",
+          "Silver Strand"
+        ],
+        "visit": [
+          "The Secret Waterfall (signed)"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 40,
+      "name": "An Port to Sturrall Ridge View",
+      "irish_name": "An Phoirt, Dún na nGall",
+      "irish_meaning": null,
+      "province": "Ulster",
+      "county": "Donegal",
+      "book_page": 223,
+      "osi_map": "9",
+      "height_m": null,
+      "distance_km": 9.4,
+      "approx_time": "2.5-3 hours",
+      "difficulty": "moderate-to-hard",
+      "difficulty_notes": "no markings, navigation required",
+      "route_type": "out-and-back",
+      "starting_point": "An Port, Gortaloon, Donegal",
+      "elevation_m": 500,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": false,
+      "recommended_guide": {
+        "name": "Iain Miller",
+        "contact": "uniqueascent.ie"
+      },
+      "other_routes_in_area": [
+        "Slieve League (p.217)",
+        "Errigal (p.227)",
+        "Muckish (p.231)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "An Chistin @ Cook's Pantry for homemade cake in Glencolumbkille",
+          "Mickalene's Bar, Nancy's Bar or the Courthouse Restaurant in Ardara"
+        ],
+        "swim": [
+          "Malin Beg"
+        ],
+        "visit": [
+          "Assaranca Falls",
+          "Caves of Maghera if the tide is right (do not swim at this beach)",
+          "Glenlough Bay, another hard hike going from An Port",
+          "Glengesh viewpoint"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      }
+    },
+    {
+      "id": 41,
+      "name": "Errigal",
+      "irish_name": "An Earagail",
+      "irish_meaning": "poss. 'oratory' or 'secluded spot' [PDT]",
+      "province": "Ulster",
+      "county": "Donegal",
+      "book_page": 227,
+      "osi_map": "1",
+      "height_m": 751,
+      "distance_km": 6,
+      "approx_time": "2.5 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Errigal Mountain Hike car park",
+      "elevation_m": 530,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": false,
+      "recommended_guide": {
+        "name": "Iain Miller",
+        "contact": "uniqueascent.ie"
+      },
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Time & Tide in Annagry",
+          "Aran Espresso Bar and Kitchen"
+        ],
+        "swim": [
+          "The Boat Strand (the road down is very narrow)",
+          "Carrickfinn Beach"
+        ],
+        "visit": [
+          "Dunlewey village and the Poison Glen at the foot of Errigal",
+          "The Sacred Heart Catholic church in Dunlewey with Errigal in the background is a great photo spot",
+          "Mullaghderg Highland cow farm",
+          "Bád Eddie shipwreck",
+          "The Croithlí Distillery Tour",
+          "An Chúirt Gweedore for a spot to stay for a sunset or sunrise venture"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "parking_notes": "fits 15-20 cars"
+    },
+    {
+      "id": 42,
+      "name": "Muckish",
+      "irish_name": "An Mhucais",
+      "irish_meaning": "the pig back/ridge",
+      "province": "Ulster",
+      "county": "Donegal",
+      "book_page": 231,
+      "osi_map": "2",
+      "height_m": 667.1,
+      "distance_km": 3.6,
+      "approx_time": "3-3.5 hours",
+      "difficulty": "very-hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "'Old Muckish Quarry' — layby at 55.1115239,-8.0025865; recommend starting from Creeslough",
+      "elevation_m": 460,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": false,
+      "recommended_guide": {
+        "name": "Iain Miller",
+        "contact": "uniqueascent.ie"
+      },
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Batch Donegal in Falcarragh",
+          "The Rusty Oven Pizzeria in Dunfanaghy",
+          "The Shack at Marble Hill"
+        ],
+        "swim": [
+          "Marble Hill Strand, and while you're there visit Lucky Shell Beach",
+          "Surf with Narosa Surf School"
+        ],
+        "visit": [
+          "Doe Castle"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "subtitle": "The Miners Path",
+      "parking_notes": "yes, but the car park is small"
+    },
+    {
+      "id": 43,
+      "name": "Binevenagh",
+      "irish_name": "Binn Fhoibhne",
+      "irish_meaning": "peak of Foibhne",
+      "province": "Ulster",
+      "county": "Derry",
+      "book_page": 235,
+      "osi_map": "4",
+      "height_m": 385,
+      "distance_km": 6,
+      "approx_time": "2 hours",
+      "difficulty": "easy-to-moderate",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Leighery Road (55.1278434,-6.8977843) — search for Binevenagh Hike, Leighery Road; park in layby in the bend of the road",
+      "elevation_m": 230,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Dunseverick to Giant's Causeway (p.239)",
+        "Glenariff Forest (p.245)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Sea Shed — Downhill café at Burrenmore Nest",
+          "Surf Shack café in Castlerock",
+          "Lost & Found in Portstewart and Coleraine"
+        ],
+        "swim": [
+          "Dip at Benone Strand, Castlerock Beach, and the Herring Pond"
+        ],
+        "visit": [
+          "Mussenden Temple"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 44,
+      "name": "Dunseverick to Giant's Causeway",
+      "irish_name": null,
+      "irish_meaning": null,
+      "province": "Ulster",
+      "county": "Antrim",
+      "book_page": 239,
+      "osi_map": "5",
+      "height_m": null,
+      "distance_km": 8.2,
+      "approx_time": "2.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": "one way; bus back available every 30 mins from Giant's Causeway visitor entrance for £2.50 cash",
+      "route_type": "A-to-B (option to hike back along cliffs or get a bus back to car park)",
+      "starting_point": "Dunseverick Castle car park",
+      "elevation_m": 246,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Bothy White Park Bay Café, near Dunseverick",
+          "Two Twenty café, en route back to Belfast, very close to the Causeway"
+        ],
+        "swim": [
+          "Dip at Dunseverick Rock Pool"
+        ],
+        "visit": [
+          "Dunseverick Castle at the start of the hike",
+          "Dark Hedges",
+          "Dunluce Castle",
+          "Magheracross Car Park & Viewpoint is a must to get great cliff views of the wishing arch",
+          "White Rocks Beach in Portrush and the National Trust Carrick-a-Rede tour (pre book on their site)",
+          "Carrick-a-Rede bridge"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 45,
+      "name": "Glenariff Forest",
+      "irish_name": null,
+      "irish_meaning": null,
+      "province": "Ulster",
+      "county": "Antrim",
+      "book_page": 245,
+      "osi_map": "9",
+      "height_m": null,
+      "distance_km": 3.2,
+      "approx_time": "45 minutes",
+      "difficulty": "easy",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Glenariff Forest car park",
+      "elevation_m": 140,
+      "parking": true,
+      "fee": "£5",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [],
+      "alternative_routes": [
+        {
+          "name": "Waterfall Trail",
+          "description": "Shorter option, follow signs to the right at the top of the hill"
+        },
+        {
+          "name": "Inver River Trail",
+          "description": "Follow signs in the middle at the top of the hill"
+        }
+      ],
+      "pit_stops": {
+        "eat": [
+          "Laragh Lodge",
+          "Twilight Coffee and Bunkhouse",
+          "Mary McBride's Bar"
+        ],
+        "swim": [
+          "Cushendall Beach"
+        ],
+        "visit": [
+          "Cushendun Caves",
+          "Hidden Village of Galboly"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "subtitle": "Waterfall and Inver Trail Loop"
+    },
+    {
+      "id": 46,
+      "name": "Cavehill Loop",
+      "irish_name": null,
+      "irish_meaning": null,
+      "province": "Ulster",
+      "county": "Antrim",
+      "book_page": 251,
+      "osi_map": "15",
+      "height_m": 368,
+      "distance_km": 5.6,
+      "approx_time": "1.5-2 hours",
+      "difficulty": "easy-to-moderate",
+      "difficulty_notes": null,
+      "route_type": "looped",
+      "starting_point": "Belfast Castle",
+      "elevation_m": 300,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Divis Ridge Trail"
+      ],
+      "alternative_routes": [
+        {
+          "name": "Easier sunrise route (Route 2)",
+          "distance_km": 3.8,
+          "approx_time": "45 minutes",
+          "difficulty": "easy",
+          "route_type": "out-and-back",
+          "starting_point": "Cavehill car park, 31 Upper Hightown Rd, Belfast",
+          "elevation_m": 120,
+          "parking": true,
+          "fee": "no",
+          "dog_friendly": "yes, on a leash"
+        }
+      ],
+      "pit_stops": {
+        "eat": [
+          "Established Coffee",
+          "Neighbourhood Café",
+          "Jumon"
+        ],
+        "swim": [
+          "Helen's Bay"
+        ],
+        "visit": [
+          "Belfast Castle",
+          "Titanic Museum",
+          "Black Taxi Tour"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 47,
+      "name": "Slieve Donard",
+      "irish_name": "Sliabh Dónairt",
+      "irish_meaning": "mountain of (St) Domhangart",
+      "province": "Ulster",
+      "county": "Down",
+      "book_page": 257,
+      "osi_map": "29",
+      "height_m": 849,
+      "distance_km": 9.5,
+      "approx_time": "3.5-4 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Slieve Donard car park, Newcastle Town",
+      "elevation_m": 810,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": {
+        "name": "Johnny",
+        "contact": "johnnyparclimbing.com"
+      },
+      "other_routes_in_area": [
+        "Slieve Bearnagh (p.261)",
+        "Slieve Binnian (p.269)",
+        "Slieve Doan (p.265)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Railway Street",
+          "Birch"
+        ],
+        "swim": [
+          "Bloody Bridge",
+          "The rock pools along the Glen River down through the forest, perfect on your way down, close to the car park"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 48,
+      "name": "Slieve Bearnagh",
+      "irish_name": "Sliabh Bearnach",
+      "irish_meaning": "gapped mountain",
+      "province": "Ulster",
+      "county": "Down",
+      "book_page": 261,
+      "osi_map": "29",
+      "height_m": 739,
+      "distance_km": 10,
+      "approx_time": "3.5-4 hours",
+      "difficulty": "hard",
+      "difficulty_notes": null,
+      "route_type": "out-and-back",
+      "starting_point": "Meelmore Lodge",
+      "elevation_m": 583,
+      "parking": true,
+      "fee": "£4 for the day and £8 overnight; camping also available",
+      "dog_friendly": true,
+      "recommended_guide": {
+        "name": "Johnny",
+        "contact": "johnnyparclimbing.com"
+      },
+      "other_routes_in_area": [],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Railway Street and Birch in Newcastle",
+          "The restaurant at Hillyard House"
+        ],
+        "swim": [
+          "Bloody Bridge"
+        ],
+        "visit": [
+          "Tollymore Forest nearby Meelmore Lodge, where there are some great trails and river pools to cool off"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 49,
+      "name": "Slieve Doan",
+      "irish_name": "Dún Maol Chobha",
+      "irish_meaning": "Maol Chobha's fort",
+      "province": "Ulster",
+      "county": "Down",
+      "book_page": 265,
+      "osi_map": "29",
+      "height_m": 562,
+      "distance_km": 6.8,
+      "approx_time": "1.5-2 hours",
+      "difficulty": "easy-to-moderate",
+      "difficulty_notes": "short but steep scramble at summit",
+      "route_type": "out-and-back",
+      "starting_point": "Ott car park (only room for 8 cars)",
+      "elevation_m": 352,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Slieve Binnian (p.269)",
+        "Slieve Bearnagh (p.261)",
+        "Slieve Donard (p.257)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Birch",
+          "Railway Street",
+          "Hillyard Hotel restaurant"
+        ],
+        "swim": [
+          "Lough Shannagh, but stay close to the shore"
+        ],
+        "visit": [
+          "Tollymore Forest",
+          "Carginagh sunflower fields in the right season"
+        ]
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    },
+    {
+      "id": 50,
+      "name": "Slieve Binnian",
+      "irish_name": "Sliabh Binneáin",
+      "irish_meaning": "mountain of the small peak",
+      "province": "Ulster",
+      "county": "Down",
+      "book_page": 269,
+      "osi_map": "29",
+      "height_m": 745.9,
+      "distance_km": 10.7,
+      "approx_time": "3-3.5 hours",
+      "difficulty": "moderate",
+      "difficulty_notes": "easy option available",
+      "route_type": "looped",
+      "starting_point": "Carrick Little car park (also parking further up laneway at Little Carrick Walkers car park for £3 — has toilets)",
+      "elevation_m": 600,
+      "parking": true,
+      "fee": "no",
+      "dog_friendly": true,
+      "recommended_guide": null,
+      "other_routes_in_area": [
+        "Slieve Bearnagh (p.261)",
+        "Slieve Donard (p.257)",
+        "Slieve Doan (p.265)"
+      ],
+      "alternative_routes": [],
+      "pit_stops": {
+        "eat": [
+          "Carrick Cottage Café",
+          "Birch or Railway Street in Newcastle town"
+        ],
+        "swim": [
+          "The rock pools along the Annalong River on the route back (detour left before the forest)"
+        ],
+        "visit": []
+      },
+      "personal": {
+        "completed": false,
+        "date_completed": null,
+        "rating": null,
+        "notes": null
+      },
+      "dog_friendly_notes": "on a leash"
+    }
+  ]
+}
