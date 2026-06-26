@@ -177,6 +177,41 @@
       { "id": "36-17", "filename": "17.jpg", "caption": "Wedding party gathering outside St Finbarr's Oratory across the lake",     "lat": 51.838592, "lng": -9.319839, "date": "2025-08-16" }
     ],
 
+    "12": [
+      { "id": "12-0",  "filename": "0.jpg",  "caption": "Ireland's Eye island with sailboat from harbour wall",                "lat": 53.386036, "lng": -6.060497, "date": "2025-08-02" },
+      { "id": "12-1",  "filename": "1.jpg",  "caption": "Howth harbour and Ireland's Eye from clifftop vegetation",            "lat": 53.385922, "lng": -6.058714, "date": "2025-08-02" },
+      { "id": "12-2",  "filename": "2.jpg",  "caption": "White Victorian house with twin chimneys amid lush gardens",          "lat": 53.385914, "lng": -6.058733, "date": "2025-08-02" },
+      { "id": "12-3",  "filename": "3.jpg",  "caption": "Ireland's Eye with multiple sailing dinghies racing below",           "lat": 53.385589, "lng": -6.053394, "date": "2025-08-02" },
+      { "id": "12-4",  "filename": "4.jpg",  "caption": "Howth cliff walk trail information board and map",                    "lat": 53.385578, "lng": -6.0501,   "date": "2025-08-02" },
+      { "id": "12-5",  "filename": "5.jpg",  "caption": "Hiker on heather-covered rocks above grey sea",                       "lat": 53.384664, "lng": -6.047058, "date": "2025-08-02" },
+      { "id": "12-6",  "filename": "6.jpg",  "caption": "Stena Line ferry passing dramatic gorse-lined cliffs",                "lat": 53.383961, "lng": -6.046103, "date": "2025-08-02" },
+      { "id": "12-7",  "filename": "7.jpg",  "caption": "Pink fireweed blooms framing sailboat on calm sea",                   "lat": 53.381956, "lng": -6.045608, "date": "2025-08-02" },
+      { "id": "12-8",  "filename": "8.jpg",  "caption": "Jagged rocky cove with turquoise water below green cliff",            "lat": 53.380042, "lng": -6.045247, "date": "2025-08-02" },
+      { "id": "12-9",  "filename": "9.jpg",  "caption": "Baily Lighthouse on headland with Dublin mountains beyond",           "lat": 53.373825, "lng": -6.047892, "date": "2025-08-02" },
+      { "id": "12-10", "filename": "10.jpg", "caption": "Selfie at cliff edge, Baily Lighthouse visible behind",               "lat": 53.37365,  "lng": -6.048636, "date": "2025-08-02" },
+      { "id": "12-11", "filename": "11.jpg", "caption": "Baily Lighthouse on rocky promontory above fern-covered slopes",      "lat": 53.370647, "lng": -6.051944, "date": "2025-08-02" },
+      { "id": "12-12", "filename": "12.jpg", "caption": "Rugged rocky shoreline with seabirds and green cliff face",           "lat": 53.367297, "lng": -6.055669, "date": "2025-08-02" },
+      { "id": "12-13", "filename": "13.jpg", "caption": "Pink wildflowers with Wicklow Mountains across Dublin Bay",           "lat": 53.365094, "lng": -6.057636, "date": "2025-08-02" },
+      { "id": "12-14", "filename": "14.jpg", "caption": "Wild blue and purple hydrangeas in sunlit woodland",                  "lat": 53.365067, "lng": -6.059042, "date": "2025-08-02" },
+      { "id": "12-15", "filename": "15.jpg", "caption": "Secluded white cottage perched on steep green clifftop",              "lat": 53.364833, "lng": -6.059386, "date": "2025-08-02" },
+      { "id": "12-16", "filename": "16.jpg", "caption": "Modern seafront house rising above dense bracken ferns",              "lat": 53.3646,   "lng": -6.063364, "date": "2025-08-02" },
+      { "id": "12-17", "filename": "17.jpg", "caption": "Rocky shoreline and cliffs stretching toward green headland",         "lat": 53.364619, "lng": -6.063339, "date": "2025-08-02" },
+      { "id": "12-18", "filename": "18.jpg", "caption": "Art Deco white villa glimpsed through pine trees and garden",         "lat": 53.365003, "lng": -6.064158, "date": "2025-08-02" },
+      { "id": "12-19", "filename": "19.jpg", "caption": "Baily Lighthouse viewed across sheltered cove with shrubs",           "lat": 53.363464, "lng": -6.072086, "date": "2025-08-02" },
+      { "id": "12-20", "filename": "20.jpg", "caption": "Cliff path warning sign on narrow coastal trail",                     "lat": 53.362481, "lng": -6.074036, "date": "2025-08-02" },
+      { "id": "12-21", "filename": "21.jpg", "caption": "Hikers resting on heather clifftop above Dublin Bay",                 "lat": 53.361294, "lng": -6.079492, "date": "2025-08-02" },
+      { "id": "12-22", "filename": "22.jpg", "caption": "Secluded pebble cove between dramatic rock outcrops",                 "lat": 53.361631, "lng": -6.080739, "date": "2025-08-02" },
+      { "id": "12-23", "filename": "23.jpg", "caption": "Boulders and gravel beach framing view to Wicklow Mountains",         "lat": 53.362908, "lng": -6.083497, "date": "2025-08-02" },
+      { "id": "12-24", "filename": "24.jpg", "caption": "Ancient stone wall beside narrow fern-lined path",                    "lat": 53.363606, "lng": -6.085247, "date": "2025-08-02" },
+      { "id": "12-25", "filename": "25.jpg", "caption": "Grand red-brick Edwardian house with manicured garden",               "lat": 53.370189, "lng": -6.086869, "date": "2025-08-02" },
+      { "id": "12-26", "filename": "26.jpg", "caption": "Panoramic view of Malahide estuary and north Dublin coast",           "lat": 53.373133, "lng": -6.085964, "date": "2025-08-02" },
+      { "id": "12-27", "filename": "27.jpg", "caption": "Howth Golf Club fairway sloping toward Dublin Bay",                   "lat": 53.374006, "lng": -6.085833, "date": "2025-08-02" },
+      { "id": "12-28", "filename": "28.jpg", "caption": "Golf green with red flag, tidal flats visible beyond",                "lat": 53.375275, "lng": -6.08135,  "date": "2025-08-02" },
+      { "id": "12-29", "filename": "29.jpg", "caption": "Caution golf balls sign with trolley on sunny fairway",               "lat": 53.375397, "lng": -6.081297, "date": "2025-08-02" },
+      { "id": "12-30", "filename": "30.jpg", "caption": "Rocky hillside blanketed in purple heather and yellow gorse",         "lat": 53.375797, "lng": -6.080731, "date": "2025-08-02" },
+      { "id": "12-31", "filename": "31.jpg", "caption": "Dappled sunlight through mixed woodland at trail's end",              "lat": 53.377064, "lng": -6.075881, "date": "2025-08-02" }
+    ],
+
     "22": [
       {
         "id": "22-0",
