@@ -176,6 +176,121 @@
       { "id": "36-17", "filename": "17.jpg", "caption": "Wedding party gathering outside St Finbarr's Oratory across the lake",     "lat": 51.838592, "lng": -9.319839, "date": "2025-08-16" }
     ],
 
+    "22": [
+      {
+        "id": "22-0",
+        "filename": "0.jpg",
+        "caption": "Slieve Bloom Way information board at the Glenbarrow trailhead",
+        "lat": 53.122936,
+        "lng": -7.451461,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-1",
+        "filename": "1.jpg",
+        "caption": "Coillte welcome sign at the entrance to Glenbarrow forest",
+        "lat": 53.123336,
+        "lng": -7.452650,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-2",
+        "filename": "2.jpg",
+        "caption": "Pine trail through the tall straight trunks of Glenbarrow forest",
+        "lat": 53.123122,
+        "lng": -7.453167,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-3",
+        "filename": "3.jpg",
+        "caption": "Forest stream cascading over logs beside the trail",
+        "lat": 53.122764,
+        "lng": -7.453797,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-4",
+        "filename": "4.jpg",
+        "caption": "Moss-covered fallen trees in the ancient Glenbarrow woodland",
+        "lat": 53.122333,
+        "lng": -7.455058,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-5",
+        "filename": "5.jpg",
+        "caption": "Small stepped waterfall over mossy rocks and ferns",
+        "lat": 53.121250,
+        "lng": -7.457269,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-6",
+        "filename": "6.jpg",
+        "caption": "Dense fern and woodland undergrowth beside the river",
+        "lat": 53.118594,
+        "lng": -7.459633,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-7",
+        "filename": "7.jpg",
+        "caption": "The Barrow river in full spate rushing over flat rock shelves",
+        "lat": 53.117583,
+        "lng": -7.460622,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-8",
+        "filename": "8.jpg",
+        "caption": "Peat-brown torrent framed by overhanging trees at Glenbarrow",
+        "lat": 53.116183,
+        "lng": -7.461328,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-9",
+        "filename": "9.jpg",
+        "caption": "Glenbarrow waterfall in full flood pouring over the rock lip",
+        "lat": 53.115883,
+        "lng": -7.461136,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-10",
+        "filename": "10.jpg",
+        "caption": "Selfie at the Glenbarrow waterfall in the rain",
+        "lat": 53.114156,
+        "lng": -7.460731,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-11",
+        "filename": "11.jpg",
+        "caption": "Early autumn colour in the mixed woodland canopy above the gorge",
+        "lat": 53.118119,
+        "lng": -7.450283,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-12",
+        "filename": "12.jpg",
+        "caption": "Wet forest road stretching through the Slieve Bloom pines",
+        "lat": 53.120883,
+        "lng": -7.447661,
+        "date": "2025-07-20"
+      },
+      {
+        "id": "22-13",
+        "filename": "13.jpg",
+        "caption": "Vivid moss blanketing beech trunks in the Glenbarrow woodland",
+        "lat": 53.120694,
+        "lng": -7.450444,
+        "date": "2025-07-20"
+      }
+    ],
+
     "28": [
       {
         "id": "28-0",
