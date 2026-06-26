@@ -1,6 +1,6 @@
 {
   "_readme": "Add photos to public/photos/{hikeId}/ and list them here. lat/lng optional.",
-  "_version": "2026-06-26a",
+  "_version": "2026-06-26b",
   "hikes": {
     "29": [
       {
